@@ -13,11 +13,10 @@ import { Sheet, SheetContent, SheetTrigger, SheetClose } from "./ui/sheet";
 
 const navItems = [
   { name: "Home", path: "/" },
-  // { name: "Schedule", path: "/schedule" },
-  { name: "Program", path: "/program" },
-  { name: "Organizers", path: "/organizers" },
-  // { name: "Past Events", path: "/past-events" },
-  { name: "Contact", path: "/contact" },
+  { name: "Program", path: "/#program" },
+  { name: "Speakers", path: "/#speakers" },
+  { name: "Organizers", path: "/#organizers" },
+  { name: "Contact", path: "/#contact" },
 ];
 
 export function Header() {
