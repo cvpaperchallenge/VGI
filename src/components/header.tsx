@@ -15,10 +15,8 @@ import { Sheet, SheetContent, SheetTrigger, SheetClose } from "./ui/sheet";
 
 const navItems = [
   { name: "Home", path: "/" },
-  { name: "Call for Papers", path: "/call-for-papers" },
   // { name: "Schedule", path: "/schedule" },
   { name: "Program", path: "/program" },
-  { name: "Awards", path: "/awards" },
   { name: "Organizers", path: "/organizers" },
   // { name: "Past Events", path: "/past-events" },
   { name: "Contact", path: "/contact" },

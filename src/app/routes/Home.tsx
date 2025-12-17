@@ -79,9 +79,6 @@ function Home() {
             </div>
           </div>
           <div className="flex flex-col gap-4 sm:flex-row">
-            <Button asChild size="lg">
-              <Link to="/call-for-papers">Submit Paper</Link>
-            </Button>
             <Button variant="outline" size="lg" asChild>
               <Link to="/program">Check Program</Link>
             </Button>

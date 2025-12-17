@@ -126,22 +126,10 @@ export function Footer() {
             Home
           </Link>
           <Link
-            to="/call-for-papers"
-            className="text-sm text-muted-foreground hover:text-foreground"
-          >
-            Call for Papers
-          </Link>
-          <Link
             to="/program"
             className="text-sm text-muted-foreground hover:text-foreground"
           >
             Program
-          </Link>
-          <Link
-            to="/awards"
-            className="text-sm text-muted-foreground hover:text-foreground"
-          >
-            Awards
           </Link>
           <Link
             to="/organizers"
