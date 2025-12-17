@@ -1,0 +1,133 @@
+{
+  "title": "Schedule",
+  "subtitle": "Important dates and workshop program",
+  "importantDates": [
+    {
+      "title": "Paper Submission Deadline",
+      "date": "July 10, 2025",
+      "description": "All submissions must be received by 11:59 PM Hawaii Standard Time (HST)"
+    },
+    {
+      "title": "Author Notification",
+      "date": "August 25, 2025",
+      "description": "Authors will be notified of acceptance decisions"
+    },
+    {
+      "title": "Camera-Ready Deadline",
+      "date": "August 31, 2025",
+      "description": "Final versions of accepted papers must be submitted"
+    },
+    {
+      "title": "Workshop Date",
+      "date": "October, 19, 2025, 1:00 PM - 6:00 PM (HST)",
+      "description": "Workshop sessions at ICCV 2025"
+    }
+  ],
+  "workshopProgram": {
+    "day1": {
+      "date": "October 19, 2025, 1:00 PM - 6:00 PM (HST)",
+      "location": "Hawaii Convention Center 306 A",
+      "schedule": [
+        {
+          "time": "13:00 - 13:10",
+          "session": "Opening Remarks",
+          "presenter": "Hirokatsu Kataoka",
+          "slides": "https://hirokatsukataoka.net/temp/presen/251019ICCV25LIMIT_OpeningRemarks.pdf"
+        },
+        {
+          "time": "13:10 - 13:40",
+          "session": "Invited Talk 1",
+          "presenter": "Yonglong Tian",
+          "slides": ""
+        },
+        {
+          "time": "13:40 - 14:10",
+          "session": "Invited Talk 2",
+          "presenter": "Michael S. Ryoo",
+          "slides": "https://hirokatsukataoka.net/temp/presen/251019ICCV2025LIMIT_Michael_Ryoo.pdf"
+        },
+        {
+          "time": "14:10 - 14:20",
+          "session": "Short Break",
+          "presenter": "",
+          "slides": ""
+        },
+        {
+          "time": "14:20 - 14:50",
+          "session": "Invited Talk 3",
+          "presenter": "Yossi Gandelsman",
+          "slides": "https://hirokatsukataoka.net/temp/presen/251019ICCV2025LIMIT_Yossi_Gandelsman.pdf"
+        },
+        {
+          "time": "14:50 - 15:20",
+          "session": "Invited Talk 4",
+          "presenter": "Francis Engelmann",
+          "slides": "https://hirokatsukataoka.net/temp/presen/251019ICCV2025LIMIT_Francis_Engelmann.pdf"
+        },
+        {
+          "time": "15:20 - 15:50",
+          "session": "Coffee Break",
+          "presenter": "",
+          "slides": ""
+        },
+        {
+          "time": "15:50 - 16:30",
+          "session": "Oral Presentations (10 min x 4)",
+          "presenter": "",
+          "slides": ""
+        },
+        {
+          "time": "16:30 - 16:40",
+          "session": "Closing Remarks",
+          "presenter": "Daichi Otsuka",
+          "slides": ""
+        },
+        {
+          "time": "16:40 - 18:00",
+          "session": "Poster Session (20 posters)",
+          "presenter": "",
+          "slides": ""
+        }
+      ]
+    },
+    "day2": {
+      "date": "October 16, 2025",
+      "location": "Hawaii Convention Center 306 A",
+      "schedule": []
+    }
+  },
+  "presenterGuidelines": {
+    "oralPresentation": {
+      "title": "Oral Presentation Guidelines",
+      "content": "Each oral presentation will be allocated 15 minutes, followed by 5 minutes for questions and answers.",
+      "guidelines": [
+        "Prepare slides in 16:9 format",
+        "Upload your presentation at least 30 minutes before your session",
+        "Include your paper title, authors, and affiliations on the first slide",
+        "A timer will be visible to help you manage your time"
+      ]
+    },
+    "posterPresentation": {
+      "title": "Poster Presentation Guidelines",
+      "content": "Posters will be displayed during the dedicated poster session. At least one author must be present during this time.",
+      "guidelines": [
+        "Maximum poster size: 36\" x 48\" (91cm x 122cm)",
+        "Portrait orientation is recommended",
+        "Set up your poster 30 minutes before the session starts",
+        "Prepare a 2-minute elevator pitch for your work",
+        "Consider bringing handouts or QR codes linking to your paper/code"
+      ]
+    },
+    "technicalRequirements": {
+      "title": "Technical Requirements",
+      "content": "The following equipment will be provided for oral presentations:",
+      "requirements": [
+        "Projector with HDMI connection",
+        "Presenter remote",
+        "Microphone",
+        "Laser pointer"
+      ],
+      "note": "Please bring your own laptop or a USB drive with your presentation."
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "title": "Call for Papers",
+  "subtitle": "Submit your research to the LIMIT Workshop",
+  "topics": {
+    "coreMLTechniques": [
+      "Recognition, generation, reconstruction, any visual/multi-modal tasks in limited situations",
+      "{Self, Semi, Weakly, Un}-supervised learning with very limited resources",
+      "{Zero, One, Few}-shot learning with very limited resources",
+      "Training convnets, transformers, diffusion, foundation models, and any other models with relatively fewer resources",
+      "Synthetic training with procedural, artificially generated images, and any generation rules",
+      "Model training from generative models and/or formula-generated data",
+      "Vision+X and multi-modality to accelerate a learning efficiency",
+      "New datasets, benchmarks, and meta analysis under the philosophy of limited-resource settings",
+      "Brave new ideas related to above-mentioned topics or create a novel field"
+    ],
+    "applications": [
+      "Computer vision",
+      "Medical imaging",
+      "Robotics and autonomous systems",
+      "AR/VR applications",
+      "Video understanding",
+      "3D reconstruction"
+    ]
+  },
+  "paperFormat": {
+    "submissionGuidelines": [
+      "Submissions must be handled electronically via the OpenReview submission website",
+      "Submissions must be anonymized",
+      "Formatted according to ICCV 2025 template",
+      "Maximum 4 pages excluding references and appendices"
+    ],
+    "reviewProcess": "All submissions will undergo a double-blind peer review process. Each paper will be reviewed by at least three reviewers from our program committee. Accepted papers will be presented at the workshop and included in the proceedings.",
+    "publication": "Accepted papers will be published in the ICCV 2025 Workshop Proceedings and will be available on IEEE Xplore and CVF Open Access."
+  },
+  "submission": {
+    "description": "The OpenReview submission website is currently being prepared and will be made available shortly."
+  },
+  "bestPaperAwards": "We will present Best Paper and Best Student Paper awards to recognize outstanding contributions. Award winners will receive certificates and will be highlighted during the workshop.",
+  "faq": [
+    {
+      "question": "Can I submit a paper that is under review elsewhere?",
+      "answer": "No, submissions must be original and not under review at any other conference, workshop, or journal during the review period."
+    },
+    {
+      "question": "Is there a page limit for supplementary material?",
+      "answer": "There is no strict page limit for supplementary material, but we recommend keeping it concise and relevant to support your main submission."
+    },
+    {
+      "question": "Can I submit a previously published paper?",
+      "answer": "No, submissions must contain original work that has not been previously published in any peer-reviewed venue."
+    },
+    {
+      "question": "Do I need to attend the workshop if my paper is accepted?",
+      "answer": "Yes, at least one author of each accepted paper must register for and attend the workshop to present the work."
+    }
+  ]
+}

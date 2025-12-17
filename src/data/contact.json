@@ -1,0 +1,60 @@
+{
+  "title": "Contact Us",
+  "subtitle": "Get in touch with the Machine Learning Workshop team",
+  "contactInfo": [
+    {
+      "type": "Email",
+      "icon": "Mail",
+      "description": "For general inquiries, please contact us at:",
+      "value": "hirokatsu.kataoka[at]aist.go.jp"
+    },
+    {
+      "type": "Location",
+      "icon": "MapPin",
+      "description": "The workshop will be held at:",
+      "value": "Hawaii Convention Center 306 A"
+    }
+  ],
+  "contactForm": {
+    "fields": [
+      {
+        "id": "name",
+        "label": "Name",
+        "type": "text",
+        "placeholder": "Your name"
+      },
+      {
+        "id": "email",
+        "label": "Email",
+        "type": "email",
+        "placeholder": "Your email address"
+      },
+      {
+        "id": "subject",
+        "label": "Subject",
+        "type": "text",
+        "placeholder": "Message subject"
+      },
+      {
+        "id": "message",
+        "label": "Message",
+        "type": "textarea",
+        "placeholder": "Your message"
+      }
+    ],
+    "submitButton": {
+      "text": "Send Message",
+      "icon": "Send"
+    }
+  },
+  "faq": [
+    {
+      "question": "Where can the camera-ready manuscript be submitted in OpenReview?",
+      "answer": "Please submit your final manuscript by selecting 'Camera-Ready Submission' from 'Edit' in the Authors Console."
+    },
+    {
+      "question": "When will the accepted papers be made public?",
+      "answer": "All accepted papers will be released to the public from OpenReview."
+    }
+  ]
+}

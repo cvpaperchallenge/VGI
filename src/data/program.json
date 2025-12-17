@@ -1,0 +1,287 @@
+{
+  "title": "Program",
+  "subtitle": "Accepted papers, keynote speakers, and panel discussions",
+  "invitedSpeakers": [
+    {
+      "name": "Yonglong Tian",
+      "affiliation": "OpenAI",
+      "photo": "/program/yonglong.tian-512x512.jpg",
+      "title": "",
+      "bio": "",
+      "website": "https://people.csail.mit.edu/yonglong"
+    },
+    {
+      "name": "Michael S. Ryoo",
+      "affiliation": "Stony Brook University / Salesforce Research",
+      "photo": "/program/michael.ryoo-512x512.jpg",
+      "title": "",
+      "bio": "",
+      "website": "http://michaelryoo.com"
+    },
+    {
+      "name": "Yossi Gandelsman",
+      "affiliation": "UC Berkeley",
+      "photo": "/program/yossi.gandelsman-512x512.jpg",
+      "title": "",
+      "bio": "",
+      "website": "https://yossigandelsman.github.io"
+    },
+    {
+      "name": "Francis Engelmann",
+      "affiliation": "Stanford University",
+      "photo": "/program/francis.engelmann-512x512.jpg",
+      "title": "",
+      "bio": "",
+      "website": "https://francisengelmann.github.io"
+    }
+  ],
+  "acceptedPapers": {
+    "oral": [
+      {
+        "id": 1,
+        "title": "Memory-Efficient Personalization of Text-to-Image Diffusion Models via Selective Optimization Strategies",
+        "authors": "Seokeon Choi, Sunghyun Park, Hyoungwoo Park, Jeongho Kim, Sungrack Yun",
+        "posterBoard": 63,
+        "links": {
+          "paper": "https://openreview.net/attachment?id=xl0yrpO1eY&name=pdf"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Joint Training of Image Generator and Detector for Road Defect Detection",
+        "authors": "Kuan-Chuan Peng",
+        "posterBoard": 64,
+        "links": {
+          "paper": "https://openreview.net/attachment?id=yPtMwCa1hO&name=pdf"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Intraclass Compactness: A Metric for Evaluating Models Pre-Trained on Various Synthetic Data",
+        "authors": "Tomoki Suzuki, Kazuki Maeno, Yasunori Ishii, Takayoshi Yamashita",
+        "posterBoard": 65,
+        "links": {
+          "paper": "https://openreview.net/attachment?id=G2WCuOVVti&name=pdf"
+        }
+      },
+      {
+        "id": 4,
+        "title": "AutoQ-VIS: Improving Unsupervised Video Instance Segmentation via Automatic Quality Assessment",
+        "authors": "Kaixuan Lu, Mehmet Onurcan Kaya, Dim Papadopoulos",
+        "posterBoard": 66,
+        "links": {
+          "paper": "https://openreview.net/attachment?id=fvU29KaaFc&name=pdf"
+        }
+      }
+    ],
+    "poster": [
+      {
+        "id": 5,
+        "title": "Look but Don't Touch: Gradient Informed Selection Training",
+        "authors": "David Mayo, Chris Zhang, Boris Katz, Andrei Barbu, Brian Cheung",
+        "posterBoard": 67,
+        "links": {
+          "paper": "https://openreview.net/attachment?id=e7zmFky688&name=pdf"
+        }
+      },
+      {
+        "id": 6,
+        "title": "Efficiently Generating Multidimensional Calorimeter Data with Tensor Decomposition Parameterization",
+        "authors": "Paimon Goulart, Shaan Pakala, Evangelos E. Papalexakis",
+        "posterBoard": 68,
+        "links": {
+          "paper": "https://openreview.net/attachment?id=TOPq08zskO&name=pdf"
+        }
+      },
+      {
+        "id": 7,
+        "title": "QR-LoRA: QR-Based Low-Rank Adaptation for Efficient Fine-Tuning of Large Language Models",
+        "authors": "Jessica E. Liang, Anirudh Bharadwaj",
+        "posterBoard": 69,
+        "links": {
+          "paper": "https://openreview.net/attachment?id=HxUgAqehGP&name=pdf"
+        }
+      },
+      {
+        "id": 8,
+        "title": "Attn-Adapter: Attention is all you need for Online Few-shot Learner of Vision-Language Model",
+        "authors": "Phuoc-Nguyen Bui, Khanh-Binh Nguyen, Hyunseung Choo",
+        "posterBoard": 70,
+        "links": {
+          "paper": "https://openreview.net/attachment?id=3VY0Foh061&name=pdf"
+        }
+      },
+      {
+        "id": 9,
+        "title": "Cross-task knowledge distillation for few-shot detection",
+        "authors": "Louis Hémadou, Héléna Vorobieva, Ahmed Nasreddine Benaichouche, Frederic Jurie, Ewa Kijak",
+        "posterBoard": 71,
+        "links": {
+          "paper": "https://openreview.net/attachment?id=fr0vkjd7MY&name=pdf"
+        }
+      },
+      {
+        "id": 10,
+        "title": "NoiseCutMix: A Novel Data Augmentation Approach by Mixing Estimated Noise in Diffusion Models",
+        "authors": "Shumpei Takezaki, Ryoma Bise, Shinnosuke Matsuo",
+        "posterBoard": 72,
+        "links": {
+          "paper": "https://openreview.net/attachment?id=IcuXq2Z0Rz&name=pdf"
+        }
+      },
+      {
+        "id": 11,
+        "title": "Efficient Masked Attention Transformer for Few-Shot Classification and Segmentation",
+        "authors": "Dustin Carrión-Ojeda, Stefan Roth, Simone Schaub-Meyer",
+        "posterBoard": 73,
+        "links": {
+          "paper": "https://openreview.net/attachment?id=9YBgADS4p8&name=pdf"
+        }
+      },
+      {
+        "id": 12,
+        "title": "Resource-Efficient Time-Series Forecasting of Displacement Imagery using Koopman Autoencoders",
+        "authors": "Takayuki Shinohara, Hidetaka Saomoto",
+        "posterBoard": 74,
+        "links": {
+          "paper": "https://openreview.net/attachment?id=n6YYiO15iy&name=pdf"
+        }
+      },
+      {
+        "id": 13,
+        "title": "Fake & Square: Training Self-Supervised Vision Transformers with Synthetic Data and Synthetic Hard Negatives",
+        "authors": "Nikolaos Giakoumoglou, Andreas Floros, Kleanthis Marios Papadopoulos, Tania Stathaki",
+        "posterBoard": 75,
+        "links": {
+          "paper": "https://openreview.net/attachment?id=TJUfbYKo2c&name=pdf"
+        }
+      },
+      {
+        "id": 14,
+        "title": "Learning Video Representations without Natural Videos",
+        "authors": "Xueyang Yu, Xinlei Chen, Yossi Gandelsman",
+        "posterBoard": 76,
+        "links": {
+          "paper": "https://openreview.net/attachment?id=nqDXwTTCWA&name=pdf"
+        }
+      },
+      {
+        "id": 15,
+        "title": "OFASD: One-Shot Federated Anisotropic Scaling Distillation",
+        "authors": "Shunsei Koshibuchi, Hiroshi Kera, Kazuhiko Kawamoto",
+        "posterBoard": 77,
+        "links": {
+          "paper": "https://openreview.net/attachment?id=T4Ong6jjGu&name=pdf"
+        }
+      },
+      {
+        "id": 16,
+        "title": "Forgetting Visual Domains in Vision-Language Models",
+        "authors": "Yuta Goto, Kodai Kawamura, Rintaro Yanagi, Hirokatsu Kataoka, Go Irie",
+        "posterBoard": 78,
+        "links": {
+          "paper": ""
+        }
+      },
+      {
+        "id": 17,
+        "title": "Unified Category-Level Object Detection and Pose Estimation from RGB Images using 3D Prototypes",
+        "authors": "Tom Fischer, Xiaojie Zhang, Eddy Ilg",
+        "posterBoard": 79,
+        "links": {
+          "paper": "https://arxiv.org/abs/2508.02157"
+        }
+      },
+      {
+        "id": 18,
+        "title": "DACoN: DINO for Anime Paint Bucket Colorization with Any Number of Reference Images",
+        "authors": "Kazuma Nagata, Naoshi Kaneko",
+        "posterBoard": 80,
+        "links": {
+          "paper": "https://arxiv.org/abs/2509.14685"
+        }
+      },
+      {
+        "id": 19,
+        "title": "DINOv3",
+        "authors": "Oriane Siméoni, et al.",
+        "posterBoard": 81,
+        "links": {
+          "paper": "https://arxiv.org/abs/2508.10104"
+        }
+      },
+      {
+        "id": 20,
+        "title": "TWIST & SCOUT: Grounding Multimodal LLM-Experts by Forget-Free Tuning",
+        "authors": "Aritra Bhowmik, Mohammad Mahdi Derakhshani, Dennis Koelma, Yuki M. Asano, Martin R. Oswald, Cees G. M. Snoek",
+        "posterBoard": 82,
+        "links": {
+          "paper": "https://arxiv.org/abs/2410.10491"
+        }
+      },
+      {
+        "id": 21,
+        "title": "Industrial Synthetic Segment Pre-training",
+        "authors": "Shinichi Mae, Ryousuke Yamada, Hirokatsu Kataoka",
+        "posterBoard": "",
+        "links": {
+          "paper": "https://arxiv.org/abs/2505.13099"
+        }
+      }
+    ]
+  },
+  "panelDiscussion": {
+    "title": "Panel: Challenges and Opportunities in Machine Learning",
+    "time": "October 16, 2025, 13:15 - 14:45",
+    "description": "This panel brings together experts from academia and industry to discuss current challenges and future opportunities in machine learning research and applications. Topics will include ethical considerations, computational efficiency, and emerging application domains.",
+    "panelists": [
+      "Prof. Jane Smith - Stanford University",
+      "Dr. John Doe - Research Lead, AI Lab",
+      "Dr. Sarah Johnson - Chief AI Officer, Tech Corp",
+      "Prof. Michael Chen - MIT"
+    ],
+    "moderator": "Prof. Robert Wilson - Workshop Chair"
+  },
+  "sessionStructure": [
+    {
+      "title": "Session 1: Deep Learning Architectures",
+      "time": "October 15, 10:30 - 12:00",
+      "description": "This session focuses on novel deep learning architectures and optimization techniques.",
+      "papers": [
+        "Efficient Self-Supervised Learning for Computer Vision Tasks",
+        "Transformer-Based Architectures for Video Understanding",
+        "Attention Mechanisms for Multi-Modal Learning"
+      ]
+    },
+    {
+      "title": "Session 2: Generative Models",
+      "time": "October 15, 13:30 - 15:00",
+      "description": "This session covers recent advances in generative modeling techniques.",
+      "papers": [
+        "Neural Rendering for 3D Scene Reconstruction",
+        "Generative Models for Medical Image Synthesis",
+        "Text-to-Image Synthesis with Diffusion Models"
+      ]
+    },
+    {
+      "title": "Session 3: Applications in Computer Vision",
+      "time": "October 16, 10:15 - 11:45",
+      "description": "This session explores practical applications of ML in computer vision.",
+      "papers": [
+        "Few-Shot Learning for Object Detection",
+        "3D Human Pose Estimation from Video",
+        "Visual Question Answering in Complex Scenes"
+      ]
+    },
+    {
+      "title": "Session 4: Emerging Techniques",
+      "time": "October 16, 15:15 - 16:45",
+      "description": "This session highlights emerging techniques and novel applications.",
+      "papers": [
+        "Efficient Neural Networks for Edge Devices",
+        "Reinforcement Learning for Robotic Control",
+        "Federated Learning for Privacy-Preserving ML"
+      ]
+    }
+  ]
+}

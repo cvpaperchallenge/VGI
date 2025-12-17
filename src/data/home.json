@@ -1,0 +1,73 @@
+{
+  "title": "Representation Learning with Very Limited Resources: When Data, Modalities, Labels, and Computing Resources are Scarce",
+  "subtitle": "ICCV 2025 Workshop",
+  "eventInfo": {
+    "date": "October 19, 2025, 1:00 PM – 6:00 PM (HST)",
+    "location": "Hawaii Convention Center 306 A"
+  },
+  "overview": {
+    "mission": "This workshop aims to bring together researchers and practitioners in the field of machine learning to discuss the latest advances and challenges in computer vision applications. We focus on innovative approaches, emerging techniques, and real-world implementations.",
+    "keyTopics": [
+      "Recognition, generation, reconstruction, any visual/multi-modal tasks in limited situations",
+      "{Self, Semi, Weakly, Un}-supervised learning with very limited resources",
+      "{Zero, One, Few}-shot learning with very limited resources",
+      "Training convnets, transformers, diffusion, foundation models, and any other models with relatively fewer resources",
+      "Applications in healthcare, robotics, and autonomous systems"
+    ]
+  },
+  "importantDates": [
+    {
+      "title": "Paper Submission",
+      "date": "July 15, 2025"
+    },
+    {
+      "title": "Notification",
+      "date": "August 15, 2025"
+    },
+    {
+      "title": "Camera Ready",
+      "date": "September 1, 2025"
+    },
+    {
+      "title": "Workshop Date",
+      "date": "October 15-16, 2025"
+    }
+  ],
+  "latestNews": [
+    {
+      "title": "Workshop successfully concluded",
+      "date": "October 19, 2025",
+      "content": "The workshop was successfully held with many participants. We sincerely thank all presenters and contributors for their valuable contributions."
+    },
+    {
+      "title": "Awards announced",
+      "date": "October 19, 2025",
+      "content": "We have announced the award recipients for the LIMIT Workshop."
+    },
+    {
+      "title": "Poster board numbers added",
+      "date": "October 15, 2025",
+      "content": "Poster board numbers have been added to the Program page."
+    },
+    {
+      "title": "List of acepted papers released",
+      "date": "September 9, 2025",
+      "content": "We are pleased to announce that the list of accepted papers for our workshop is now available."
+    },
+    {
+      "title": "Program announcement",
+      "date": "September 1, 2025",
+      "content": "The workshop program has been published."
+    },
+    {
+      "title": "Author notification",
+      "date": "August 26, 2025",
+      "content": "We have notified the authors of the review results and the acceptance decision."
+    },
+    {
+      "title": "Workshop page open",
+      "date": "June 1, 2025",
+      "content": "We are excited to announce that our workshop page is now live. We will continue to add information, so please check back regularly for updates."
+    }
+  ]
+}

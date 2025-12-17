@@ -1,0 +1,314 @@
+{
+  "title": "Organizing Team & Supporters",
+  "subtitle": "Meet the team behind the Machine Learning Workshop",
+  "organizers": [
+    {
+      "name": "Hirokatsu Kataoka",
+      "affiliation": "AIST / Oxford VGG",
+      "photo": "/organizers/hirokatsu.kataoka.png",
+      "bio": "",
+      "website": "https://hirokatsukataoka.net/"
+    },
+    {
+      "name": "Yuki M. Asano",
+      "affiliation": "University of Technology Nuremberg (UTN)",
+      "photo": "/organizers/yuki.asano.png",
+      "bio": "",
+      "website": "https://yukimasano.github.io"
+    },
+    {
+      "name": "Iro Laina",
+      "affiliation": "Oxford VGG",
+      "photo": "/organizers/iro.laina.png",
+      "bio": "",
+      "website": "https://scholar.google.de/citations?user=n9nXAPcAAAAJ"
+    },
+    {
+      "name": "Rio Yokota",
+      "affiliation": "Institute of Science Tokyo",
+      "photo": "/organizers/rio.yokota.png",
+      "bio": "",
+      "website": "https://scholar.google.com/citations?user=MLaytfkAAAAJ"
+    },
+    {
+      "name": "Nakamasa Inoue",
+      "affiliation": "Institute of Science Tokyo",
+      "photo": "/organizers/nakamasa.inoue.png",
+      "bio": "",
+      "website": "https://mmai.tech/"
+    },
+    {
+      "name": "Rintaro Yanagi",
+      "affiliation": "AIST",
+      "photo": "/organizers/rintaro.yanagi.png",
+      "bio": "",
+      "website": "https://scholar.google.com/citations?user=4dA9-SoAAAAJ"
+    },
+    {
+      "name": "Partha Das",
+      "affiliation": "University of Amsterdam",
+      "photo": "/organizers/partha.das.png",
+      "bio": "",
+      "website": "https://morpheus3000.github.io"
+    },
+    {
+      "name": "Connor Anderson",
+      "affiliation": "Kitware",
+      "photo": "/organizers/connor.anderson.png",
+      "bio": "",
+      "website": "https://scholar.google.com/citations?user=UEKWqIoAAAAJ"
+    },
+    {
+      "name": "Ryousuke Yamada",
+      "affiliation": "AIST",
+      "photo": "/organizers/ryousuke.yamada.png",
+      "bio": "",
+      "website": "https://ryosuke-yamada.github.io"
+    },
+    {
+      "name": "Daichi Otsuka",
+      "affiliation": "AIST",
+      "photo": "/organizers/daichi.otsuka.png",
+      "bio": "",
+      "website": "https://sites.google.com/view/otsuka-profile"
+    },
+    {
+      "name": "Yoshihiro Fukuhara",
+      "affiliation": "AIST / Waseda University",
+      "photo": "/organizers/yoshihiro.fukuhara.png",
+      "bio": "",
+      "website": "https://gatheluck.net"
+    }
+  ],
+  "programChairs": [
+    {
+      "name": "Prof. Michael Chen",
+      "affiliation": "MIT",
+      "bio": "Associate Professor specializing in deep learning and neural networks.",
+      "email": "example@mit.edu",
+      "website": "#"
+    },
+    {
+      "name": "Dr. Emily Taylor",
+      "affiliation": "University of Tokyo",
+      "bio": "Research scientist focusing on computer vision and generative models.",
+      "email": "example@u-tokyo.ac.jp",
+      "website": "#"
+    },
+    {
+      "name": "Prof. David Lee",
+      "affiliation": "ETH Zurich",
+      "bio": "Professor of Computer Science with expertise in reinforcement learning and robotics.",
+      "email": "example@ethz.ch",
+      "website": "#"
+    }
+  ],
+  "webChair": [
+    {
+      "name": "Alex Martinez",
+      "affiliation": "LIMIT Lab",
+      "bio": "Web developer and researcher with experience in academic conference websites.",
+      "email": "example@limitlab.org",
+      "website": "#"
+    }
+  ],
+  "reviewers": [
+    {
+      "name": "Aaqib Saeed",
+      "affiliation": "Eindhoven University of Technology"
+    },
+    {
+      "name": "Ahmed S. Abdelrahman",
+      "affiliation": "University of Central Florida"
+    },
+    {
+      "name": "Alina Marcu",
+      "affiliation": "The National University of Science and Technology Politehnica Bucharest"
+    },
+    {
+      "name": "Amir El-Ghoussani",
+      "affiliation": "Friedrich-Alexander Universität Erlangen-Nürnberg"
+    },
+    {
+      "name": "Anestis Kastellos",
+      "affiliation": "Dimocritus University of Thrace"
+    },
+    {
+      "name": "Anubhav Paras",
+      "affiliation": "Zoox, Inc."
+    },
+    {
+      "name": "Atsushi Hashimoto",
+      "affiliation": "Keio University"
+    },
+    {
+      "name": "Binh M. Le",
+      "affiliation": "Sungkyunkwan University"
+    },
+    {
+      "name": "Carlos Rafael Catalan",
+      "affiliation": "Samsung Research"
+    },
+    {
+      "name": "Christoph Reich",
+      "affiliation": "University of Oxford"
+    },
+    {
+      "name": "Dheeraj Varghese",
+      "affiliation": "University of Amsterdam"
+    },
+    {
+      "name": "Emanuela Haller",
+      "affiliation": "UiPath"
+    },
+    {
+      "name": "Emil Slusanschi",
+      "affiliation": "University Politehnica of Bucharest"
+    },
+    {
+      "name": "Gaganpreet Jhajj",
+      "affiliation": "Athabasca University"
+    },
+    {
+      "name": "Hervé Le Borgne",
+      "affiliation": "CEA"
+    },
+    {
+      "name": "Ikuro Sato",
+      "affiliation": "Denso IT Laboratory, Inc."
+    },
+    {
+      "name": "Jiayi He",
+      "affiliation": "Georgia Institute of Technology"
+    },
+    {
+      "name": "Kazuya Nishimura",
+      "affiliation": "National Cancer Center Japan"
+    },
+    {
+      "name": "Khanh-Binh Nguyen",
+      "affiliation": "Deakin University"
+    },
+    {
+      "name": "Krishna Kanth Nakka",
+      "affiliation": "Huawei Technologies Ltd."
+    },
+    {
+      "name": "Min-Hung Chen",
+      "affiliation": "NVIDIA"
+    },
+    {
+      "name": "Minho Park",
+      "affiliation": "Korea Advanced Institute of Science & Technology"
+    },
+    {
+      "name": "Mücahid Barstuğan",
+      "affiliation": "Konya Technical University"
+    },
+    {
+      "name": "Naoshi Kaneko",
+      "affiliation": "Tokyo Denki University"
+    },
+    {
+      "name": "Naoya Chiba",
+      "affiliation": "Osaka University"
+    },
+    {
+      "name": "Noureldin Elmadany",
+      "affiliation": "Arab Academy for Science & Technology"
+    },
+    {
+      "name": "Pagon Gatchalee",
+      "affiliation": "Chiang Mai University"
+    },
+    {
+      "name": "Pengyu Dai",
+      "affiliation": "Tokyo Institute of Technology"
+    },
+    {
+      "name": "Prahitha Movva",
+      "affiliation": "University of Massachusetts at Amherst"
+    },
+    {
+      "name": "Prajwal Singh",
+      "affiliation": "Indian Institute of Technology, Gandhinagar"
+    },
+    {
+      "name": "Purva Chiniya",
+      "affiliation": "Amazon"
+    },
+    {
+      "name": "Rakesh Chowdary Machineni",
+      "affiliation": "Rockwell Automation"
+    },
+    {
+      "name": "Ryuichi Nakahara",
+      "affiliation": "Okayama University"
+    },
+    {
+      "name": "Seungryong Kim",
+      "affiliation": "Korea Advanced Institute of Science & Technology"
+    },
+    {
+      "name": "Shashanka Venkataramanan",
+      "affiliation": "INRIA"
+    },
+    {
+      "name": "Shaurjya Mandal",
+      "affiliation": "Harvard University"
+    },
+    {
+      "name": "Shunsuke Kitada",
+      "affiliation": "LY Corp."
+    },
+    {
+      "name": "Sonain Jamil",
+      "affiliation": "Université Jean Monnet"
+    },
+    {
+      "name": "Tomoyuki Suzuki",
+      "affiliation": "CyberAgent"
+    },
+    {
+      "name": "Tsun-Yi Yang",
+      "affiliation": "Amazon"
+    },
+    {
+      "name": "Tushar Shinde",
+      "affiliation": "IIT Madras Zanzibar"
+    },
+    {
+      "name": "V Gurucharan",
+      "affiliation": "Collaborative Dynamics"
+    },
+    {
+      "name": "Wenhao You",
+      "affiliation": "University of Waterloo"
+    },
+    {
+      "name": "Yash Gupta",
+      "affiliation": "Headlands Technologies"
+    },
+    {
+      "name": "Youssef Dawoud",
+      "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg"
+    },
+    {
+      "name": "Yusuke Mukuta",
+      "affiliation": "The University of Tokyo"
+    },
+    {
+      "name": "Zhengkang Xiang",
+      "affiliation": "University of Melbourne"
+    },
+    {
+      "name": "Renaud Vandeghen",
+      "affiliation": "University of Liège"
+    }
+  ],
+  "sponsors": [
+    {
+      "name": "ICCV 2025"
+    }
+  ]
+}
