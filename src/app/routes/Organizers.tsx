@@ -10,17 +10,16 @@ import {
   CardTitle,
 } from "../../components/ui/card";
 import organizersData from "../../data/organizers.json";
-import type { Route } from "./+types/Organizers";
-import { buildMeta } from "@/lib/seo";
+// import type { Route } from "./+types/Organizers";
 
-export const meta: Route.MetaFunction = () =>
-  buildMeta({
-    title: "Organizers | VGI Workshop @ CVPR 2026",
-    description:
-      "Meet the organizing committee supporting the CVPR 2026 VGI Workshop on visual general intelligence.",
-    path: "/organizers",
-    keywords: ["organizing committee"],
-  });
+// export const meta: Route.MetaFunction = () =>
+//   buildMeta({
+//     title: "Organizers | VGI Workshop @ CVPR 2026",
+//     description:
+//       "Meet the organizing committee supporting the CVPR 2026 VGI Workshop on visual general intelligence.",
+//     path: "/organizers",
+//     keywords: ["organizing committee"],
+//   });
 
 function Organizers() {
   return (

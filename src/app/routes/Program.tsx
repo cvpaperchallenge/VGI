@@ -20,18 +20,17 @@ import {
 
 import programData from "../../data/program.json";
 import scheduleData from "../../data/schedule.json";
-import type { Route } from "./+types/Program";
-import { buildMeta } from "@/lib/seo";
+// import type { Route } from "./+types/Program";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 
-export const meta: Route.MetaFunction = () =>
-  buildMeta({
-    title: "Program | VGI Workshop @ CVPR 2026",
-    description:
-      "Explore the VGI Workshop program at CVPR 2026, featuring the detailed agenda, invited speakers, and accepted oral and poster papers on visual general intelligence.",
-    path: "/program",
-    keywords: ["workshop agenda", "invited speakers", "accepted papers"],
-  });
+// export const meta: Route.MetaFunction = () =>
+//   buildMeta({
+//     title: "Program | VGI Workshop @ CVPR 2026",
+//     description:
+//       "Explore the VGI Workshop program at CVPR 2026, featuring the detailed agenda, invited speakers, and accepted oral and poster papers on visual general intelligence.",
+//     path: "/program",
+//     keywords: ["workshop agenda", "invited speakers", "accepted papers"],
+//   });
 
 function Program() {
   return (
