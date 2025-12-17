@@ -203,21 +203,6 @@ function CallForPapers() {
           </div> */}
       </section>
 
-      {/* Best Paper Awards */}
-      {/* <section className="space-y-6">
-        <div className="space-y-2">
-          <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter">
-            Best Paper Awards
-          </h2>
-          <p className="text-muted-foreground">
-            Recognition for outstanding research contributions
-          </p>
-        </div>
-        <div className="rounded-lg border bg-card p-6">
-          <p>{callForPapersData.bestPaperAwards}</p>
-        </div>
-      </section> */}
-
       {/* FAQ Section */}
       {/* <section className="space-y-6">
         <div className="space-y-2">
