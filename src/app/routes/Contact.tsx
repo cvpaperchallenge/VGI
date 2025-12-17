@@ -11,17 +11,16 @@ import {
 // import { Label } from "../../components/ui/label";
 // import { Textarea } from "../../components/ui/textarea";
 import contactData from "../../data/contact.json";
-import type { Route } from "./+types/Contact";
-import { buildMeta } from "@/lib/seo";
+// import type { Route } from "./+types/Contact";
 
-export const meta: Route.MetaFunction = () =>
-  buildMeta({
-    title: "Contact | VGI Workshop @ CVPR 2026",
-    description:
-      "Get in touch with the CVPR 2026 VGI Workshop team via email, venue information, and Slack, and review answers to frequently asked questions.",
-    path: "/contact",
-    keywords: ["contact information", "email", "workshop questions"],
-  });
+// export const meta: Route.MetaFunction = () =>
+//   buildMeta({
+//     title: "Contact | VGI Workshop @ CVPR 2026",
+//     description:
+//       "Get in touch with the CVPR 2026 VGI Workshop team via email, venue information, and Slack, and review answers to frequently asked questions.",
+//     path: "/contact",
+//     keywords: ["contact information", "email", "workshop questions"],
+//   });
 
 function Contact() {
   return (
