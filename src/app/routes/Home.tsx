@@ -1,9 +1,33 @@
-import { Calendar, MapPin } from "lucide-react";
-import { Link } from "react-router";
+import { Calendar, Mail, MapPin, ExternalLink, FileText } from "lucide-react";
+import { SiSlack } from "react-icons/si";
+import { Link, useLocation } from "react-router";
+import { useEffect } from "react";
 
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "../../components/ui/table";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "../../components/ui/card";
 import { Button } from "../../components/ui/button";
 import homeData from "../../data/home.json";
+
+import programData from "../../data/program.json";
+import scheduleData from "../../data/schedule.json";
+import organizersData from "../../data/organizers.json";
+import contactData from "../../data/contact.json";
 import type { Route } from "./+types/Home";
+import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { buildMeta } from "@/lib/seo";
 
 export const meta: Route.MetaFunction = () =>
@@ -17,6 +41,15 @@ export const meta: Route.MetaFunction = () =>
   });
 
 function Home() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (!location.hash) return;
+
+    const element = document.querySelector(location.hash);
+    element?.scrollIntoView({ behavior: "smooth" });
+  }, [location.hash]);
+
   return (
     <main className="container px-6 py-8 space-y-16 xl:w-6xl">
       {/* Hero Section */}
@@ -75,18 +108,16 @@ function Home() {
           </div>
           <div className="flex flex-col gap-4 sm:flex-row">
             <Button variant="outline" size="lg" asChild>
-              <Link to="/program">Check Program</Link>
+              <Link to="/#program">Check Program</Link>
             </Button>
           </div>
         </div>
       </section>
 
       {/* Overview Section */}
-      <section className="space-y-6">
+      <section id="about" className="space-y-6">
         <div className="space-y-2">
-          <h2 className="text-3xl font-bold tracking-tighter">
-            About VGI Workshop
-          </h2>
+          <h2 className="text-3xl tracking-tighter">About VGI Workshop</h2>
           <p>
             AGI is said to be an AI capable of replicating human intelligence in
             every aspect. It’s evident intelligence in the visual domain will
@@ -100,54 +131,12 @@ function Home() {
             language domain, is essential to explore.
           </p>
         </div>
-        {/* <div className="grid gap-6 md:grid-cols-2">
-          <div className="space-y-4">
-            <h3 className="text-xl font-semibold">About LIMIT Workshop</h3>
-            <p>{homeData.overview.mission}</p>
-          </div>
-          <div className="space-y-4">
-            <h3 className="text-xl font-semibold">Key Topics</h3>
-            <ul className="list-disc pl-5 space-y-2">
-              {homeData.overview.keyTopics.map((topic, index) => (
-                <li key={index}>{topic}</li>
-              ))}
-            </ul>
-          </div>
-        </div> */}
       </section>
 
-      {/* Important Dates Timeline */}
-      {/* <section className="space-y-6">
-        <div className="space-y-2">
-          <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter">
-            Important Dates
-          </h2>
-          <p className="text-muted-foreground">
-            Key deadlines for your calendar
-          </p>
-        </div>
-        <div className="relative border-l border-border pl-6 space-y-8">
-          {scheduleData.importantDates.map((date, index) => (
-            <div key={index} className="relative">
-              <div className="absolute -left-[32px] mt-1 h-4 w-4 rounded-full bg-primary"></div>
-              <div className="space-y-1">
-                <h3 className="font-semibold">{date.title}</h3>
-                <p className="text-muted-foreground flex items-center gap-2">
-                  <Calendar className="h-4 w-4" />
-                  {date.date}
-                </p>
-                <p className="text-sm">{date.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section> */}
-
       {/* Latest News Section */}
-      <section className="space-y-6">
+      <section id="news" className="space-y-6">
         <div className="space-y-2">
-          <h2 className="text-3xl font-bold tracking-tighter">Latest News</h2>
-          {/* <p className="text-muted-foreground">Updates and announcements</p> */}
+          <h2 className="text-3xl tracking-tighter">Latest News</h2>
         </div>
         <div className="space-y-4">
           {homeData.latestNews.map((news, index) => (
@@ -160,6 +149,207 @@ function Home() {
               </div>
               <p className="mt-2">{news.content}</p>
             </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Program Section */}
+      <section id="program" className="space-y-6">
+        <div className="space-y-2">
+          <h2 className="text-2xl sm:text-3xl tracking-tighter">
+            Workshop Program
+          </h2>
+        </div>
+        <ScrollArea className="w-[80dvw] md:w-full">
+          <Table>
+            <TableHeader>
+              <TableRow>
+                <TableHead className="w-[150px]">Time</TableHead>
+                <TableHead>Session</TableHead>
+                <TableHead className="hidden md:table-cell">
+                  Presenter
+                </TableHead>
+                <TableHead className="hidden md:table-cell w-[140px]"></TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {scheduleData.workshopProgram.day1.schedule.map((item, index) => (
+                <TableRow key={index}>
+                  <TableCell className="font-medium">{item.time}</TableCell>
+                  <TableCell>{item.session}</TableCell>
+                  <TableCell className="hidden md:table-cell">
+                    {item.presenter || ""}
+                  </TableCell>
+                  <TableCell className="hidden md:table-cell">
+                    {item.slides ? (
+                      <Button variant="ghost" size="sm" asChild>
+                        <a href={item.slides} target="_blank" rel="noreferrer">
+                          <FileText className="mr-2 h-4 w-4" />
+                          Slides
+                        </a>
+                      </Button>
+                    ) : (
+                      <span className="text-muted-foreground text-sm"></span>
+                    )}
+                  </TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+          <ScrollBar orientation="horizontal" />
+        </ScrollArea>
+      </section>
+
+      {/* Invited Speakers Section */}
+      <section id="speakers" className="space-y-6">
+        <div className="space-y-2">
+          <h2 className="text-2xl sm:text-3xl tracking-tighter">
+            Invited Speakers
+          </h2>
+        </div>
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {programData.invitedSpeakers.map((speaker, index) => (
+            <Card key={index}>
+              <CardHeader>
+                <CardTitle>{speaker.name}</CardTitle>
+                <CardDescription>{speaker.affiliation}</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  <div className="aspect-square bg-muted rounded-md flex items-center justify-center">
+                    <img
+                      src={speaker.photo}
+                      alt={`Photo of ${speaker.name}`}
+                      className="object-cover w-full h-full"
+                      loading="lazy"
+                    />
+                  </div>
+                  {/* <h3 className="font-semibold">{speaker.title}</h3>
+                  <p className="text-sm text-muted-foreground">{speaker.bio}</p> */}
+                </div>
+              </CardContent>
+              <CardFooter>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex gap-2"
+                  asChild
+                >
+                  <a href={speaker.website} target="_blank" rel="noreferrer">
+                    View Profile <ExternalLink className="ml-2 h-3 w-3" />
+                  </a>
+                </Button>
+              </CardFooter>
+            </Card>
+          ))}
+        </div>
+      </section>
+
+      {/* Organizers */}
+      <section id="organizers" className="space-y-6">
+        <div className="space-y-2">
+          <h2 className="text-2xl sm:text-3xl tracking-tighter">Organizers</h2>
+        </div>
+        <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-4">
+          {organizersData.organizers.map((chair, index) => (
+            <Card key={index}>
+              <CardHeader>
+                <CardTitle>{chair.name}</CardTitle>
+                <CardDescription>{chair.affiliation}</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  <div className="aspect-square bg-muted rounded-md flex items-center justify-center">
+                    <img
+                      src={chair.photo}
+                      alt={`Photo of ${chair.name}`}
+                      className="object-cover w-full h-full"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </CardContent>
+              <CardFooter className="flex justify-between">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex gap-2"
+                  asChild
+                >
+                  <a href={chair.website} target="_blank" rel="noreferrer">
+                    Website <ExternalLink className="h-4 w-4" />
+                  </a>
+                </Button>
+              </CardFooter>
+            </Card>
+          ))}
+        </div>
+      </section>
+
+      {/* Contact Information */}
+      <section id="contact" className="space-y-6">
+        <div className="space-y-2">
+          <h2 className="text-2xl sm:text-3xl tracking-tighter">
+            Contact Information
+          </h2>
+        </div>
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {contactData.contactInfo.map((info, index) => (
+            <Card key={index}>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  {info.icon === "Mail" && <Mail className="h-5 w-5" />}
+                  {info.icon === "MapPin" && <MapPin className="h-5 w-5" />}
+                  {info.icon === "SiSlack" && <SiSlack className="h-5 w-5" />}
+                  {info.type}
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground">
+                  {info.description}
+                </p>
+                {info.value && (
+                  <p className="font-medium mt-2">
+                    {info.type === "Email" ? (
+                      <a
+                        href={`mailto:${info.value}`}
+                        className="hover:text-primary"
+                      >
+                        {info.value}
+                      </a>
+                    ) : (
+                      info.value.split("\n").map((line, i) => (
+                        <span key={i}>
+                          {line}
+                          {i < info.value.split("\n").length - 1 && <br />}
+                        </span>
+                      ))
+                    )}
+                  </p>
+                )}
+                {/* {info.socialLinks && (
+                  <div className="flex gap-4 mt-2">
+                    {info.socialLinks.map((link, linkIndex) => (
+                      <Button
+                        key={linkIndex}
+                        variant="outline"
+                        size="sm"
+                        className="flex gap-2"
+                        asChild
+                      >
+                        <a href={link.url} target="_blank" rel="noreferrer">
+                          {link.icon === "X" && <X className="h-4 w-4" />}
+                          {link.icon === "SiSlack" && (
+                            <SiSlack className="h-4 w-4" />
+                          )}
+                          {link.name}
+                        </a>
+                      </Button>
+                    ))}
+                  </div>
+                )} */}
+              </CardContent>
+            </Card>
           ))}
         </div>
       </section>
