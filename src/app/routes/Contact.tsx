@@ -164,14 +164,14 @@ function Contact() {
       </section> */}
 
       {/* FAQ */}
-      <section className="space-y-6">
+      {/* <section className="space-y-6">
         <div className="space-y-2">
           <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter">
             Frequently Asked Questions
           </h2>
-          {/* <p className="text-muted-foreground">
+          <p className="text-muted-foreground">
             Common questions about contacting us
-          </p> */}
+          </p>
         </div>
         <div className="grid gap-6 md:grid-cols-1">
           {contactData.faq.map((item, index) => (
@@ -185,7 +185,7 @@ function Contact() {
             </Card>
           ))}
         </div>
-      </section>
+      </section> */}
     </main>
   );
 }

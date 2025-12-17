@@ -1,5 +1,5 @@
 {
-  "title": "Organizing Team & Supporters",
+  "title": "Organizing Team",
   "subtitle": "Meet the team behind the Machine Learning Workshop",
   "organizers": [
     {
@@ -10,53 +10,32 @@
       "website": "https://hirokatsukataoka.net/"
     },
     {
-      "name": "Yuki M. Asano",
-      "affiliation": "University of Technology Nuremberg (UTN)",
-      "photo": "/organizers/yuki.asano.png",
+      "name": "Yoshihiro Fukuhara",
+      "affiliation": "AIST / Waseda University",
+      "photo": "/organizers/yoshihiro.fukuhara.png",
       "bio": "",
-      "website": "https://yukimasano.github.io"
+      "website": "https://gatheluck.net"
     },
     {
-      "name": "Iro Laina",
+      "name": "Yonglong Tian",
+      "affiliation": "OpenAI",
+      "photo": "/organizers/yonglong.tian.jpg",
+      "bio": "",
+      "website": "https://people.csail.mit.edu/yonglong/"
+    },
+    {
+      "name": "Elliott / Shangzhe Wu",
+      "affiliation": "University of Cambridge",
+      "photo": "/organizers/shangzhe.wu.jpg",
+      "bio": "",
+      "website": "https://elliottwu.com/"
+    },
+    {
+      "name": "Oishi Deb",
       "affiliation": "Oxford VGG",
-      "photo": "/organizers/iro.laina.png",
+      "photo": "/organizers/oishi.deb.jpg",
       "bio": "",
-      "website": "https://scholar.google.de/citations?user=n9nXAPcAAAAJ"
-    },
-    {
-      "name": "Rio Yokota",
-      "affiliation": "Institute of Science Tokyo",
-      "photo": "/organizers/rio.yokota.png",
-      "bio": "",
-      "website": "https://scholar.google.com/citations?user=MLaytfkAAAAJ"
-    },
-    {
-      "name": "Nakamasa Inoue",
-      "affiliation": "Institute of Science Tokyo",
-      "photo": "/organizers/nakamasa.inoue.png",
-      "bio": "",
-      "website": "https://mmai.tech/"
-    },
-    {
-      "name": "Rintaro Yanagi",
-      "affiliation": "AIST",
-      "photo": "/organizers/rintaro.yanagi.png",
-      "bio": "",
-      "website": "https://scholar.google.com/citations?user=4dA9-SoAAAAJ"
-    },
-    {
-      "name": "Partha Das",
-      "affiliation": "University of Amsterdam",
-      "photo": "/organizers/partha.das.png",
-      "bio": "",
-      "website": "https://morpheus3000.github.io"
-    },
-    {
-      "name": "Connor Anderson",
-      "affiliation": "Kitware",
-      "photo": "/organizers/connor.anderson.png",
-      "bio": "",
-      "website": "https://scholar.google.com/citations?user=UEKWqIoAAAAJ"
+      "website": "https://scholar.google.com/citations?user=_x5INRkAAAAJ"
     },
     {
       "name": "Ryousuke Yamada",
@@ -66,18 +45,11 @@
       "website": "https://ryosuke-yamada.github.io"
     },
     {
-      "name": "Daichi Otsuka",
-      "affiliation": "AIST",
-      "photo": "/organizers/daichi.otsuka.png",
+      "name": "Christian Rupprecht",
+      "affiliation": "Oxford VGG",
+      "photo": "/organizers/christian.rupprecht.jpg",
       "bio": "",
-      "website": "https://sites.google.com/view/otsuka-profile"
-    },
-    {
-      "name": "Yoshihiro Fukuhara",
-      "affiliation": "AIST / Waseda University",
-      "photo": "/organizers/yoshihiro.fukuhara.png",
-      "bio": "",
-      "website": "https://gatheluck.net"
+      "website": "https://chrirupp.github.io/"
     }
   ],
   "programChairs": [

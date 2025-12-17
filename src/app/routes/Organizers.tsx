@@ -197,14 +197,14 @@ function Organizers() {
       </section> */}
 
       {/* Reviewers */}
-      <section className="space-y-6">
+      {/* <section className="space-y-6">
         <div className="space-y-2">
           <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter">
             Reviewers
           </h2>
-          {/* <p className="text-muted-foreground">
+          <p className="text-muted-foreground">
             Paper reviewers and session chairs
-          </p> */}
+          </p>
         </div>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {organizersData.reviewers.map((member, index) => (
@@ -216,17 +216,17 @@ function Organizers() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Sponsors */}
-      <section className="space-y-6">
+      {/* <section className="space-y-6">
         <div className="space-y-2">
           <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter">
             Supporters
           </h2>
           <p className="text-muted-foreground">TBD</p>
         </div>
-        {/* <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-3">
           {organizersData.sponsors.map((sponsor, index) => (
             <div
               key={index}
@@ -237,8 +237,8 @@ function Organizers() {
               </span>
             </div>
           ))}
-        </div> */}
-      </section>
+        </div>
+      </section> */}
     </main>
   );
 }
