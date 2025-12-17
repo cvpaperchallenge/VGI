@@ -3,20 +3,19 @@ import { Link } from "react-router";
 
 import { Button } from "../../components/ui/button";
 import homeData from "../../data/home.json";
-import scheduleData from "../../data/schedule.json";
 import type { Route } from "./+types/Home";
 import { buildMeta } from "@/lib/seo";
 
 export const meta: Route.MetaFunction = () =>
   buildMeta({
     title:
-      "LIMIT Workshop @ ICCV 2025 | Representation Learning with Limited Resources",
+      "VGI Workshop @ CVPR 2026 | Visual General Intelligence -Vision Research Toward the AGI Era-",
     description:
-      "LIMIT Workshop at ICCV 2025 spotlights resource-efficient representation learning. Join us on October 19 in Honolulu for keynotes, paper presentations, and community updates.",
+      "VGI Workshop at CVPR 2026 spotlights resource-efficient representation learning. Join us on October 19 in Honolulu for keynotes, paper presentations, and community updates.",
     path: "/",
     keywords: [
-      "ICCV workshop 2025",
-      "resource-efficient vision",
+      "CVPR workshop 2026",
+      "visual general intelligence",
       "limited data learning",
     ],
   });
@@ -90,23 +89,19 @@ function Home() {
       <section className="space-y-6">
         <div className="space-y-2">
           <h2 className="text-3xl font-bold tracking-tighter">
-            About LIMIT Workshop
+            About VGI Workshop
           </h2>
           <p>
-            Modern vision and multimodal models depend on massive datasets and
-            heavy compute, magnifying costs, energy use, bias, copyright, and
-            privacy risks. The “DeepSeek shock” of January 2025 spotlighted the
-            urgency of learning powerful representations under tight resource
-            limits. Now in its third edition, our workshop continues to explore
-            strategies for robust representation learning when data, labels,
-            modalities, parameters, or compute are scarce. We focus on
-            techniques such as synthetic and distilled data, self-supervision,
-            transfer learning, sparsity, and low-rank adaptation that squeeze
-            maximum performance from minimal resources. By uniting
-            budget-constrained researchers with industry teams operating under
-            strict legal requirements, we aim to catalyze collaborations that
-            make the next generation of foundation models more democratic,
-            ethical, and sustainable.
+            AGI is said to be an AI capable of replicating human intelligence in
+            every aspect. It’s evident intelligence in the visual domain will
+            contribute to the advent, and discussions and preparations toward
+            this goal are crucial within the CVPR community as well. We might
+            ask, should the pursuit of visual intelligence, termed visual
+            general intelligence (VGI), be seen as an extension of current
+            vision research, or does it require a radical leap or paradigm
+            shift? How we should conduct vision research for the next
+            generation, especially directions that don’t rely heavily on the
+            language domain, is essential to explore.
           </p>
         </div>
         {/* <div className="grid gap-6 md:grid-cols-2">
@@ -126,14 +121,14 @@ function Home() {
       </section>
 
       {/* Important Dates Timeline */}
-      <section className="space-y-6">
+      {/* <section className="space-y-6">
         <div className="space-y-2">
           <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter">
             Important Dates
           </h2>
-          {/* <p className="text-muted-foreground">
+          <p className="text-muted-foreground">
             Key deadlines for your calendar
-          </p> */}
+          </p>
         </div>
         <div className="relative border-l border-border pl-6 space-y-8">
           {scheduleData.importantDates.map((date, index) => (
@@ -150,7 +145,7 @@ function Home() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Latest News Section */}
       <section className="space-y-6">

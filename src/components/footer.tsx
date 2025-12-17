@@ -165,8 +165,7 @@ export function Footer() {
             />
           </Link>
           <p className="text-center text-sm text-muted-foreground md:text-left">
-            &copy; {new Date().getFullYear()} LIMIT Workshop. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} VGI Workshop. All rights reserved.
           </p>
           <p className="text-center text-sm text-muted-foreground md:text-right">
             Website built by cvpaper.challenge Dev Team

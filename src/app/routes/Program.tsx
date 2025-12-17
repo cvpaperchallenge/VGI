@@ -26,9 +26,9 @@ import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 
 export const meta: Route.MetaFunction = () =>
   buildMeta({
-    title: "Program | LIMIT Workshop @ ICCV 2025",
+    title: "Program | VGI Workshop @ CVPR 2026",
     description:
-      "Explore the LIMIT Workshop program at ICCV 2025, featuring the detailed agenda, invited speakers, and accepted oral and poster papers on efficient learning from limited resources.",
+      "Explore the VGI Workshop program at CVPR 2026, featuring the detailed agenda, invited speakers, and accepted oral and poster papers on visual general intelligence.",
     path: "/program",
     keywords: ["workshop agenda", "invited speakers", "accepted papers"],
   });

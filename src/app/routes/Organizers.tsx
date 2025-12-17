@@ -15,11 +15,11 @@ import { buildMeta } from "@/lib/seo";
 
 export const meta: Route.MetaFunction = () =>
   buildMeta({
-    title: "Organizers | LIMIT Workshop @ ICCV 2025",
+    title: "Organizers | VGI Workshop @ CVPR 2026",
     description:
-      "Meet the organizing committee, program chairs, web chair, and reviewers supporting the ICCV 2025 LIMIT Workshop on resource-constrained representation learning.",
+      "Meet the organizing committee supporting the CVPR 2026 VGI Workshop on visual general intelligence.",
     path: "/organizers",
-    keywords: ["organizing committee", "program chairs", "reviewers"],
+    keywords: ["organizing committee"],
   });
 
 function Organizers() {
