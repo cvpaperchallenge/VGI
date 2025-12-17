@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://iccv2025-limit-workshop.limitlab.xyz/sitemap.xml
+Sitemap: https://cvpr2026-vgi-workshop.limitlab.xyz/sitemap.xml

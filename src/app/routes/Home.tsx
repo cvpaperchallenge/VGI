@@ -13,11 +13,7 @@ export const meta: Route.MetaFunction = () =>
     description:
       "VGI Workshop at CVPR 2026 spotlights resource-efficient representation learning. Join us on October 19 in Honolulu for keynotes, paper presentations, and community updates.",
     path: "/",
-    keywords: [
-      "CVPR workshop 2026",
-      "visual general intelligence",
-      "limited data learning",
-    ],
+    keywords: ["CVPR workshop 2026", "visual general intelligence"],
   });
 
 function Home() {
