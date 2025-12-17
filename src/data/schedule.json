@@ -37,19 +37,19 @@
         {
           "time": "08:40 - 09:10",
           "session": "Invited Talk 1",
-          "presenter": "",
+          "presenter": "Robert Geirhos",
           "slides": ""
         },
         {
           "time": "09:10 - 09:40",
           "session": "Invited Talk 2",
-          "presenter": "",
+          "presenter": "Aditi Raghunathan",
           "slides": ""
         },
         {
           "time": "09:40 - 10:10",
           "session": "Invited Talk 3",
-          "presenter": "",
+          "presenter": "Matt Deitke",
           "slides": ""
         },
         {
@@ -61,13 +61,13 @@
         {
           "time": "10:20 - 10:50",
           "session": "Invited Talk 4",
-          "presenter": "",
+          "presenter": "Kristen Grauman",
           "slides": ""
         },
         {
           "time": "10:50 - 11:20",
           "session": "Invited Talk 5",
-          "presenter": "",
+          "presenter": "Yuki M. Asano",
           "slides": ""
         },
         {
@@ -91,13 +91,13 @@
         {
           "time": "13:30 - 14:00",
           "session": "Invited Talk 6",
-          "presenter": "",
+          "presenter": "Andrea Vedaldi",
           "slides": ""
         },
         {
           "time": "14:00 - 14:30",
           "session": "Invited Talk 7",
-          "presenter": "",
+          "presenter": "Alexei A. Efros",
           "slides": ""
         },
         {
@@ -109,13 +109,13 @@
         {
           "time": "15:00 - 15:30",
           "session": "Invited Talk 8",
-          "presenter": "",
+          "presenter": "Jamie Shotton",
           "slides": ""
         },
         {
           "time": "15:30 - 16:00",
           "session": "Invited Talk 9",
-          "presenter": "",
+          "presenter": "Kaiming He",
           "slides": ""
         },
         {

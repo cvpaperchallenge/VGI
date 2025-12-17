@@ -3,36 +3,76 @@
   "subtitle": "Accepted papers, keynote speakers, and panel discussions",
   "invitedSpeakers": [
     {
-      "name": "Yonglong Tian",
-      "affiliation": "OpenAI",
-      "photo": "/program/yonglong.tian-512x512.jpg",
+      "name": "Robert Geirhos",
+      "affiliation": "Google DeepMind",
+      "photo": "/program/robert.geirhos-512x512.jpg",
       "title": "",
       "bio": "",
-      "website": "https://people.csail.mit.edu/yonglong"
+      "website": "https://robertgeirhos.com/"
     },
     {
-      "name": "Michael S. Ryoo",
-      "affiliation": "Stony Brook University / Salesforce Research",
-      "photo": "/program/michael.ryoo-512x512.jpg",
+      "name": "Aditi Raghunathan",
+      "affiliation": "Carnegie Mellon University",
+      "photo": "/program/aditi.raghunathan-512x512.jpg",
       "title": "",
       "bio": "",
-      "website": "http://michaelryoo.com"
+      "website": "https://www.cs.cmu.edu/~aditirag/"
     },
     {
-      "name": "Yossi Gandelsman",
-      "affiliation": "UC Berkeley",
-      "photo": "/program/yossi.gandelsman-512x512.jpg",
+      "name": "Matt Deitke",
+      "affiliation": "Meta Superintelligence Lab",
+      "photo": "/program/matt.deitke-512x512.jpg",
       "title": "",
       "bio": "",
-      "website": "https://yossigandelsman.github.io"
+      "website": "https://mattdeitke.com/"
     },
     {
-      "name": "Francis Engelmann",
-      "affiliation": "Stanford University",
-      "photo": "/program/francis.engelmann-512x512.jpg",
+      "name": "Kristen Grauman",
+      "affiliation": "University of Texas, Austin / Meta",
+      "photo": "/program/kristen.grauman-512x512.jpg",
       "title": "",
       "bio": "",
-      "website": "https://francisengelmann.github.io"
+      "website": "https://www.cs.utexas.edu/~grauman/"
+    },
+    {
+      "name": "Yuki M. Asano",
+      "affiliation": "University of Technology Nuremberg",
+      "photo": "/program/yuki.asano-512x512.jpg",
+      "title": "",
+      "bio": "",
+      "website": "https://yukimasano.github.io/"
+    },
+    {
+      "name": "Andrea Vedaldi",
+      "affiliation": "University of Oxford / Meta",
+      "photo": "/program/andrea.vedaldi-512x512.jpg",
+      "title": "",
+      "bio": "",
+      "website": "https://www.robots.ox.ac.uk/~vedaldi/"
+    },
+    {
+      "name": "Alexei A. Efros",
+      "affiliation": "University of California, Berkeley",
+      "photo": "/program/alexei.efros-512x512.jpg",
+      "title": "",
+      "bio": "",
+      "website": "https://people.eecs.berkeley.edu/~efros/"
+    },
+    {
+      "name": "Jamie Shotton",
+      "affiliation": "Wayve",
+      "photo": "/program/jamie.shotton-512x512.jpg",
+      "title": "",
+      "bio": "",
+      "website": "https://jamie.shotton.org/"
+    },
+    {
+      "name": "Kaiming He",
+      "affiliation": "Massachusetts Institute of Technology / Google DeepMind",
+      "photo": "/program/kaiming.he-512x512.jpg",
+      "title": "",
+      "bio": "",
+      "website": "https://people.csail.mit.edu/kaiming/"
     }
   ],
   "acceptedPapers": {

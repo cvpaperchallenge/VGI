@@ -274,8 +274,8 @@ function Program() {
         </div>
       </section> */}
 
-      {/* Important Dates Timeline */}
-      <section className="space-y-6">
+      {/* Accepted Papers */}
+      {/* <section className="space-y-6">
         <div className="space-y-2">
           <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter">
             Accepted Papers [
@@ -324,26 +324,10 @@ function Program() {
                     </span>
                   )}
                 </div>
-                {/* <p className="text-muted-foreground flex items-center gap-2">
-                  <Calendar className="h-4 w-4" />
-                  {date.date}
-                </p> */}
                 <p className="text-sm">{paper.authors}</p>
               </div>
             </div>
           ))}
-          {/* {scheduleData.importantDates.map((date, index) => (
-            <div key={index} className="relative">
-              <div className="space-y-1">
-                <h3 className="font-semibold">{date.title}</h3>
-                <p className="text-muted-foreground flex items-center gap-2">
-                  <Calendar className="h-4 w-4" />
-                  {date.date}
-                </p>
-                <p className="text-sm">{date.description}</p>
-              </div>
-            </div>
-          ))} */}
         </div>
         <div className="relative border-border space-y-2">
           <h3 className="text-2xl sm:text-3xl tracking-tighter">
@@ -398,16 +382,12 @@ function Program() {
                     </span>
                   )}
                 </div>
-                {/* <p className="text-muted-foreground flex items-center gap-2">
-                  <Calendar className="h-4 w-4" />
-                  {date.date}
-                </p> */}
                 <p className="text-sm">{paper.authors}</p>
               </div>
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Accepted Papers */}
       {/* <section className="space-y-6">
