@@ -4,9 +4,6 @@ import { Link } from "react-router";
 
 // import { Button } from "./ui/button";
 
-import whiteLimitLabLogoWide from "../../public/limit-logo-white-wide.png";
-import blackLimitLabLogoWide from "../../public/limit-logo-black-wide.png";
-
 export function Footer() {
   return (
     <footer className="w-full border-t bg-footer-background/70 py-6 md:py-10 px-6 flex-col justify-items-center">
@@ -20,7 +17,7 @@ export function Footer() {
         </div> */}
 
         {/* Past LIMIT Workshop */}
-        <div className="flex flex-col gap-2">
+        {/* <div className="flex flex-col gap-2">
           <h3 className="font-medium">Past LIMIT Workshops</h3>
           <Link
             to="https://hirokatsukataoka16.github.io/CVPR-2024-LIMIT"
@@ -34,10 +31,10 @@ export function Footer() {
           >
             ICCV 2023 LIMIT
           </Link>
-        </div>
+        </div> */}
 
         {/* Related Workshop */}
-        <div className="flex flex-col gap-2">
+        {/* <div className="flex flex-col gap-2">
           <h3 className="font-medium">Related Workshops</h3>
           <Link
             to="https://iccv2025-found-workshop.limitlab.xyz"
@@ -63,7 +60,7 @@ export function Footer() {
           >
             ICCV 2019 MDALC
           </Link>
-        </div>
+        </div> */}
 
         {/* Social Links
         <div className="flex flex-col gap-2">
@@ -150,8 +147,8 @@ export function Footer() {
       <div className="container mt-8 border-t pt-4">
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
           <Link to="/" className="flex items-center space-x-2">
-            {/* <span className="font-bold text-lg">LIMIT Workshop</span> */}
-            <img
+            <span className="font-bold text-lg">VGI Workshop</span>
+            {/* <img
               src={blackLimitLabLogoWide}
               alt="LIMIT Workshop logo"
               className="object-contain h-16 w-auto dark:hidden"
@@ -162,7 +159,7 @@ export function Footer() {
               alt="LIMIT Workshop logo"
               className="object-contain h-16 w-auto hidden dark:block"
               loading="lazy"
-            />
+            /> */}
           </Link>
           <p className="text-center text-sm text-muted-foreground md:text-left">
             &copy; {new Date().getFullYear()} VGI Workshop. All rights reserved.
