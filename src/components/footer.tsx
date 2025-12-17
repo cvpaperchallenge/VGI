@@ -123,19 +123,25 @@ export function Footer() {
             Home
           </Link>
           <Link
-            to="/program"
+            to="/#program"
             className="text-sm text-muted-foreground hover:text-foreground"
           >
             Program
           </Link>
           <Link
-            to="/organizers"
+            to="/#speakers"
+            className="text-sm text-muted-foreground hover:text-foreground"
+          >
+            Speakers
+          </Link>
+          <Link
+            to="/#organizers"
             className="text-sm text-muted-foreground hover:text-foreground"
           >
             Organizers
           </Link>
           <Link
-            to="/contact"
+            to="/#contact"
             className="text-sm text-muted-foreground hover:text-foreground"
           >
             Contact
