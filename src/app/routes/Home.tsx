@@ -95,7 +95,10 @@ function Home() {
             <h1 className="text-4xl tracking-tighter sm:text-5xl md:text-6xl">
               {homeData.title}
             </h1>
-            <p className="text-xl text-muted-foreground">{homeData.subtitle}</p>
+            <p className="text-2xl tracking-tight sm:text-3xl md:text-4xl">
+              {homeData.tagline}
+            </p>
+            <p className="text-lg text-muted-foreground">{homeData.subtitle}</p>
           </div>
           <div className="flex flex-col items-center justify-center gap-4 text-sm sm:flex-row sm:text-base">
             <div className="flex items-center gap-2">
