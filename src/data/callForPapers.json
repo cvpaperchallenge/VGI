@@ -2,24 +2,14 @@
   "title": "Call for Papers",
   "subtitle": "Submit your research to the LIMIT Workshop",
   "topics": {
-    "coreMLTechniques": [
-      "Recognition, generation, reconstruction, any visual/multi-modal tasks in limited situations",
-      "{Self, Semi, Weakly, Un}-supervised learning with very limited resources",
-      "{Zero, One, Few}-shot learning with very limited resources",
-      "Training convnets, transformers, diffusion, foundation models, and any other models with relatively fewer resources",
-      "Synthetic training with procedural, artificially generated images, and any generation rules",
-      "Model training from generative models and/or formula-generated data",
-      "Vision+X and multi-modality to accelerate a learning efficiency",
-      "New datasets, benchmarks, and meta analysis under the philosophy of limited-resource settings",
-      "Brave new ideas related to above-mentioned topics or create a novel field"
-    ],
-    "applications": [
-      "Computer vision",
-      "Medical imaging",
-      "Robotics and autonomous systems",
-      "AR/VR applications",
-      "Video understanding",
-      "3D reconstruction"
+    "core": [
+      "Vision research in the era of AGI",
+      "Learning strategy in connection to AGI",
+      "Ethics, rights, and labors along with AGI",
+      "Visual architecture in AGI",
+      "How to combine visual and other modality in AGI",
+      "Datasets, teacher labels, benchmarks, and meta analysis under the philosophy of AGI",
+      "Brave new and different perspective ideas regarding AGI"
     ]
   },
   "paperFormat": {

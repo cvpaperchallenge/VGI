@@ -26,6 +26,7 @@ import programData from "../../data/program.json";
 import scheduleData from "../../data/schedule.json";
 import organizersData from "../../data/organizers.json";
 import contactData from "../../data/contact.json";
+import callForPapersData from "../../data/callForPapers.json";
 import type { Route } from "./+types/Home";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { buildMeta } from "@/lib/seo";
@@ -114,25 +115,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Overview Section */}
-      <section id="about" className="space-y-6">
-        <div className="space-y-2">
-          <h2 className="text-3xl tracking-tighter">About VGI Workshop</h2>
-          <p>
-            AGI is said to be an AI capable of replicating human intelligence in
-            every aspect. It’s evident intelligence in the visual domain will
-            contribute to the advent, and discussions and preparations toward
-            this goal are crucial within the CVPR community as well. We might
-            ask, should the pursuit of visual intelligence, termed visual
-            general intelligence (VGI), be seen as an extension of current
-            vision research, or does it require a radical leap or paradigm
-            shift? How we should conduct vision research for the next
-            generation, especially directions that don’t rely heavily on the
-            language domain, is essential to explore.
-          </p>
-        </div>
-      </section>
-
       {/* Latest News Section */}
       <section id="news" className="space-y-6">
         <div className="space-y-2">
@@ -150,6 +132,56 @@ function Home() {
               <p className="mt-2">{news.content}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Overview Section */}
+      <section id="about" className="space-y-6">
+        <div className="space-y-2">
+          <h2 className="text-3xl tracking-tighter">About VGI Workshop</h2>
+          <p>
+            AGI is said to be an AI capable of replicating human intelligence in
+            every aspect. It’s evident intelligence in the visual domain will
+            contribute to the advent, and discussions and preparations toward
+            this goal are crucial within the CVPR community as well. We might
+            ask, should the pursuit of visual intelligence, termed visual
+            general intelligence (VGI), be seen as an extension of current
+            vision research, or does it require a radical leap or paradigm
+            shift? How we should conduct vision research for the next
+            generation, especially directions that don’t rely heavily on the
+            language domain, is essential to explore.
+          </p>
+        </div>
+        {/* Broader impact */}
+        <div className="space-y-2">
+          <h3 className="text-2xl tracking-tighter">Broader impact</h3>
+          <p>
+            AGI is said to be an AI capable of replicating human intelligence in
+            every aspect. It’s evident intelligence in the visual domain will
+            contribute to the advent, and discussions and preparations toward
+            this goal are crucial within the CVPR community as well. We might
+            ask, should the pursuit of visual intelligence, termed visual
+            general intelligence (VGI), be seen as an extension of current
+            vision research, or does it require a radical leap or paradigm
+            shift? How we should conduct vision research for the next
+            generation, especially directions that don’t rely heavily on the
+            language domain, is essential to explore.
+          </p>
+        </div>
+        {/* Topics of Interest */}
+        <div className="space-y-2">
+          <h3 className="text-2xl tracking-tighter">Topics of Interest</h3>
+          <p>
+            The workshop focus on following topics across the diverse domains
+            covered by our organizers:
+          </p>
+          <div className="space-y-2">
+            <ul className="list-disc pl-5 space-y-1">
+              {callForPapersData.topics.core.map((topic, index) => (
+                <li key={index}>{topic}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       </section>
 
