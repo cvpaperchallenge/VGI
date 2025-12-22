@@ -120,7 +120,7 @@ function Program() {
             Distinguished researchers and industry leaders
           </p> */}
         </div>
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-6 sm:grid-cols-2">
           {programData.invitedSpeakers.map((speaker, index) => (
             <Card key={index}>
               <CardHeader>
