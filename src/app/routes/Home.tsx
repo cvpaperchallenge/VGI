@@ -377,7 +377,7 @@ function Home() {
                     )}
                   </p>
                 )}
-                {/* {info.socialLinks && (
+                {info.socialLinks && (
                   <div className="flex gap-4 mt-2">
                     {info.socialLinks.map((link, linkIndex) => (
                       <Button
@@ -388,7 +388,6 @@ function Home() {
                         asChild
                       >
                         <a href={link.url} target="_blank" rel="noreferrer">
-                          {link.icon === "X" && <X className="h-4 w-4" />}
                           {link.icon === "SiSlack" && (
                             <SiSlack className="h-4 w-4" />
                           )}
@@ -397,7 +396,7 @@ function Home() {
                       </Button>
                     ))}
                   </div>
-                )} */}
+                )}
               </CardContent>
             </Card>
           ))}
