@@ -257,7 +257,7 @@ function Home() {
             announced in the future. Please check back for updates.
           </p>
         </div>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 grid-cols-2 lg:grid-cols-3">
           {programData.invitedSpeakers.map((speaker, index) => (
             <Card key={index}>
               <CardHeader>
@@ -300,7 +300,7 @@ function Home() {
         <div className="space-y-2">
           <h2 className="text-2xl sm:text-3xl tracking-tighter">Organizers</h2>
         </div>
-        <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-4">
+        <div className="grid gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {organizersData.organizers.map((chair, index) => (
             <Card key={index}>
               <CardHeader>
@@ -377,7 +377,7 @@ function Home() {
                     )}
                   </p>
                 )}
-                {/* {info.socialLinks && (
+                {info.socialLinks && (
                   <div className="flex gap-4 mt-2">
                     {info.socialLinks.map((link, linkIndex) => (
                       <Button
@@ -388,7 +388,6 @@ function Home() {
                         asChild
                       >
                         <a href={link.url} target="_blank" rel="noreferrer">
-                          {link.icon === "X" && <X className="h-4 w-4" />}
                           {link.icon === "SiSlack" && (
                             <SiSlack className="h-4 w-4" />
                           )}
@@ -397,7 +396,7 @@ function Home() {
                       </Button>
                     ))}
                   </div>
-                )} */}
+                )}
               </CardContent>
             </Card>
           ))}

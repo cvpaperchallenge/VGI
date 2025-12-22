@@ -44,7 +44,7 @@ function Organizers() {
             Workshop organization and coordination
           </p> */}
         </div>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 grid-cols-2 lg:grid-cols-3">
           {organizersData.organizers.map((chair, index) => (
             <Card key={index}>
               <CardHeader>
