@@ -257,7 +257,7 @@ function Home() {
             announced in the future. Please check back for updates.
           </p>
         </div>
-        <div className="grid gap-6 grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {programData.invitedSpeakers.map((speaker, index) => (
             <Card key={index}>
               <CardHeader>
@@ -300,7 +300,7 @@ function Home() {
         <div className="space-y-2">
           <h2 className="text-2xl sm:text-3xl tracking-tighter">Organizers</h2>
         </div>
-        <div className="grid gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {organizersData.organizers.map((chair, index) => (
             <Card key={index}>
               <CardHeader>
