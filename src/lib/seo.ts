@@ -1,19 +1,19 @@
 import type { MetaDescriptor } from "react-router";
 
-const SITE_URL = "https://iccv2025-limit-workshop.limitlab.xyz";
-const DEFAULT_IMAGE = `${SITE_URL}/limit-logo-white-wide.png`;
+const SITE_URL = "https://cvpr2026-vgi-workshop.limitlab.xyz";
+const DEFAULT_IMAGE = `${SITE_URL}/limitlab-logo-white-wide.png`;
 const DEFAULT_IMAGE_ALT =
-  "LIMIT Workshop at ICCV 2025 wordmark on a dark gradient background";
-const SITE_NAME = "LIMIT Workshop @ ICCV 2025";
+  "VGI Workshop at CVPR 2026 wordmark on a dark gradient background";
+const SITE_NAME = "VGI Workshop @ CVPR 2026";
 const DEFAULT_DESCRIPTION =
-  "Official site for the ICCV 2025 LIMIT Workshop on representation learning with very limited data, labels, modalities, and compute.";
+  "Official site for the CVPR 2026 Workshop on Visual General Intelligence -Vision Research Toward the AGI Era-.";
 const DEFAULT_KEYWORDS = [
-  "LIMIT Workshop",
-  "ICCV 2025",
-  "representation learning",
-  "resource-constrained AI",
+  "VGI Workshop",
+  "CVPR 2026",
+  "Visual General Intelligence",
+  "VGI",
+  "AGI",
   "LIMIT Lab",
-  "efficient machine learning",
 ];
 
 type SeoConfig = {
