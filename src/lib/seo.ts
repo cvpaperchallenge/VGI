@@ -6,7 +6,7 @@ const DEFAULT_IMAGE_ALT =
   "VGI Workshop at CVPR 2026 wordmark on a dark gradient background";
 const SITE_NAME = "VGI Workshop @ CVPR 2026";
 const DEFAULT_DESCRIPTION =
-  "Official site for the CVPR 2026 Workshop on Visual General Intelligence -Vision Research Toward the AGI Era-.";
+  "Official site for the CVPR 2026 Workshop on Visual General Intelligence: Vision Research Toward the AGI Era.";
 const DEFAULT_KEYWORDS = [
   "VGI Workshop",
   "CVPR 2026",

@@ -1,6 +1,8 @@
 import { Link } from "react-router";
 import { Menu } from "lucide-react";
 
+import whiteLimitLabLogoWide from "../../public/limitlab-logo-white-wide.png";
+import blackLimitLabLogoWide from "../../public/limitlab-logo-black-wide.png";
 import { Button } from "./ui/button";
 import { ThemeToggle } from "./ui/theme-toggle";
 import {
@@ -25,8 +27,8 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between px-5">
         <div className="flex items-center gap-2">
           <Link to="/" className="flex items-center space-x-2">
-            <span className="font-bold text-xl">VGI 2026</span>
-            {/* <img
+            {/* <span className="font-bold text-xl">VGI 2026</span> */}
+            <img
               src={blackLimitLabLogoWide}
               alt="LIMIT Workshop logo"
               className="object-contain h-16 w-auto dark:hidden"
@@ -37,7 +39,7 @@ export function Header() {
               alt="LIMIT Workshop logo"
               className="object-contain h-16 w-auto hidden dark:block"
               loading="lazy"
-            /> */}
+            />
           </Link>
         </div>
 
