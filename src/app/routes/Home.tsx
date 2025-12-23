@@ -32,6 +32,7 @@ import homeData from "../../data/home.json";
 import programData from "../../data/program.json";
 import scheduleData from "../../data/schedule.json";
 import organizersData from "../../data/organizers.json";
+import supportersData from "../../data/supporters.json";
 import contactData from "../../data/contact.json";
 import callForPapersData from "../../data/callForPapers.json";
 import type { Route } from "./+types/Home";
@@ -327,6 +328,46 @@ function Home() {
                   asChild
                 >
                   <a href={chair.website} target="_blank" rel="noreferrer">
+                    Website <ExternalLink className="h-4 w-4" />
+                  </a>
+                </Button>
+              </CardFooter>
+            </Card>
+          ))}
+        </div>
+      </section>
+
+      {/* Supporters */}
+      <section id="supporters" className="space-y-6">
+        <div className="space-y-2">
+          <h2 className="text-2xl sm:text-3xl tracking-tighter">Supporters</h2>
+        </div>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {supportersData.supporters.map((supporter, index) => (
+            <Card key={index}>
+              <CardHeader>
+                <CardTitle>{supporter.name}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  <div className="aspect-square bg-white dark:bg-white rounded-md flex items-center justify-center">
+                    <img
+                      src={supporter.logo}
+                      alt={`Logo of ${supporter.name}`}
+                      className="object-contain w-full h-full p-4"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </CardContent>
+              <CardFooter>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex gap-2"
+                  asChild
+                >
+                  <a href={supporter.website} target="_blank" rel="noreferrer">
                     Website <ExternalLink className="h-4 w-4" />
                   </a>
                 </Button>
