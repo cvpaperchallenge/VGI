@@ -3,13 +3,14 @@
   "subtitle": "Submit your research to the LIMIT Workshop",
   "topics": {
     "core": [
+      "What is vision-centric AGI, and how can it be achieved?",
       "Vision research in the era of AGI",
-      "Learning strategy in connection to AGI",
-      "Ethics, rights, and labors along with AGI",
-      "Visual architecture in AGI",
-      "How to combine visual and other modality in AGI",
-      "Datasets, teacher labels, benchmarks, and meta analysis under the philosophy of AGI",
-      "Brave new and different perspective ideas regarding AGI"
+      "Learning strategies in connection with AGI",
+      "Ethics, rights, and labor considerations surrounding AGI",
+      "Visual architectures for AGI",
+      "Integration of vision with other modalities in AGI",
+      "Datasets, supervision paradigms, benchmarks, and meta-analysis guided by AGI principles",
+      "Bold, unconventional, and novel perspectives on AGI"
     ]
   },
   "paperFormat": {
