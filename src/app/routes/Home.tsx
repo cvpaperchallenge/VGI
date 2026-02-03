@@ -151,40 +151,50 @@ function Home() {
         <div className="space-y-2">
           <h2 className="text-3xl tracking-tighter">About VGI Workshop</h2>
           <p>
-            AGI is said to be an AI capable of replicating human intelligence in
-            every aspect. It’s evident intelligence in the visual domain will
-            contribute to the advent, and discussions and preparations toward
-            this goal are crucial within the CVPR community as well. We might
-            ask, should the pursuit of visual intelligence, termed visual
-            general intelligence (VGI), be seen as an extension of current
-            vision research, or does it require a radical leap or paradigm
-            shift? How we should conduct vision research for the next
-            generation, especially directions that don’t rely heavily on the
-            language domain, is essential to explore.
+            Artificial General Intelligence (AGI) is often described as AI
+            capable of replicating human intelligence across all aspects of
+            cognition. It is increasingly evident that visual intelligence will
+            play a fundamental role in the emergence of AGI. Accordingly,
+            sustained discussion and systematic preparation toward this goal are
+            crucial within the CVPR community.
+          </p>
+          <p>
+            A central question we pose is whether the pursuit of visual
+            intelligence, referred to here as Visual General Intelligence (VGI),
+            should be viewed as a natural extension of existing vision research,
+            or whether it demands a radical leap or paradigm shift. In
+            particular, it is essential to explore how vision research should be
+            conducted for the next generation of AI systems, especially along
+            directions that reduce dependence on language-centric supervision
+            and reasoning, in contrast to the heavy reliance seen in current
+            Vision-Language Models (VLMs) and Multimodal LLMs (MLLMs).
           </p>
         </div>
         {/* Broader impact */}
         <div className="space-y-2">
           <h3 className="text-2xl tracking-tighter">Broader impact</h3>
           <p>
-            AGI is said to be an AI capable of replicating human intelligence in
-            every aspect. It’s evident intelligence in the visual domain will
-            contribute to the advent, and discussions and preparations toward
-            this goal are crucial within the CVPR community as well. We might
-            ask, should the pursuit of visual intelligence, termed visual
-            general intelligence (VGI), be seen as an extension of current
-            vision research, or does it require a radical leap or paradigm
-            shift? How we should conduct vision research for the next
-            generation, especially directions that don’t rely heavily on the
-            language domain, is essential to explore.
+            As AGI research continues to advance, the role of visual
+            intelligence becomes increasingly significant. The CVPR community is
+            uniquely positioned to shape this trajectory by defining how visual
+            perception, reasoning, and learning contribute to general
+            intelligence.
+          </p>
+          <p>
+            This workshop aims to foster critical discussion on the long-term
+            implications of VGI, including its technical foundations, ethical
+            considerations, and societal impact. By examining whether current
+            vision paradigms are sufficient or whether fundamentally new
+            perspectives are required, we hope to guide the development of
+            responsible, robust, and vision-centric pathways toward AGI.
           </p>
         </div>
         {/* Topics of Interest */}
         <div className="space-y-2">
           <h3 className="text-2xl tracking-tighter">Topics of Interest</h3>
           <p>
-            The workshop focus on following topics across the diverse domains
-            covered by our organizers:
+            The VGI Workshop focuses on the following topics across the diverse
+            domains represented by the organizers:
           </p>
           <div className="space-y-2">
             <ul className="list-disc pl-5 space-y-1">
