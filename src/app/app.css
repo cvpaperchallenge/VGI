@@ -281,8 +281,9 @@
   --gray-track: #6c6e79;
 }
 
-
-:root, .light, .light-theme {
+:root,
+.light,
+.light-theme {
   --violet-1: #f6f6f8;
   --violet-2: #f2f2f9;
   --violet-3: #eaeaf8;
@@ -315,7 +316,8 @@
   --violet-track: #6e56cf;
 }
 
-.dark, .dark-theme {
+.dark,
+.dark-theme {
   --violet-1: #13121f;
   --violet-2: #181626;
   --violet-3: #262045;
@@ -348,7 +350,9 @@
   --violet-track: #6e56cf;
 }
 
-:root, .light, .light-theme {
+:root,
+.light,
+.light-theme {
   --green-1: #f9fcfb;
   --green-2: #f1f9f6;
   --green-3: #e2f5ed;
@@ -381,7 +385,8 @@
   --green-track: #26997b;
 }
 
-.dark, .dark-theme {
+.dark,
+.dark-theme {
   --green-1: #0d1512;
   --green-2: #111c18;
   --green-3: #0d2e24;
