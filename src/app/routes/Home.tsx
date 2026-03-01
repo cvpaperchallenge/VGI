@@ -133,25 +133,25 @@ function Home() {
         </div>
       </section>
 
-        {/* Latest News Section */}
-        <section id="news" className="space-y-6 mt-16">
-          <div className="space-y-2">
-            <h2 className="text-3xl tracking-tighter">Latest News</h2>
-          </div>
-          <div className="space-y-4">
-            {homeData.latestNews.map((news, index) => (
-              <div key={index} className="rounded-lg border bg-card p-6">
-                <div className="flex justify-between items-start">
-                  <div className="space-y-1">
-                    <h3 className="font-semibold">{news.title}</h3>
-                    <p className="text-sm text-muted-foreground">{news.date}</p>
-                  </div>
+      {/* Latest News Section */}
+      <section id="news" className="space-y-6 mt-16">
+        <div className="space-y-2">
+          <h2 className="text-3xl tracking-tighter">Latest News</h2>
+        </div>
+        <div className="space-y-4">
+          {homeData.latestNews.map((news, index) => (
+            <div key={index} className="rounded-lg border bg-card p-6">
+              <div className="flex justify-between items-start">
+                <div className="space-y-1">
+                  <h3 className="font-semibold">{news.title}</h3>
+                  <p className="text-sm text-muted-foreground">{news.date}</p>
                 </div>
-                <p className="mt-2">{news.content}</p>
               </div>
-            ))}
-          </div>
-        </section>
+              <p className="mt-2">{news.content}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       {/* Overview Section */}
       <section id="about" className="space-y-6">
