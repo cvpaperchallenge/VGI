@@ -51,6 +51,7 @@ export const meta: Route.MetaFunction = () =>
 
 function Home() {
   const location = useLocation();
+  const heroImageSrc = `${import.meta.env.BASE_URL}VGI_hero_image.jpg`;
 
   useEffect(() => {
     if (!location.hash) return;
@@ -62,9 +63,15 @@ function Home() {
   return (
     <main className="container px-6 py-8 space-y-16 xl:w-6xl">
       {/* Hero Section */}
-      <section className="relative overflow-hidden rounded-3xl border bg-gradient-to-br from-primary/10 via-background to-background px-6 py-16 text-center shadow-lg">
-        <div className="pointer-events-none absolute inset-0 -z-10">
-          <div className="h-full w-full bg-gradient-to-b from-primary/20 via-transparent to-transparent dark:from-primary/30" />
+      <section className="relative isolate overflow-hidden rounded-3xl border bg-gradient-to-br from-primary/10 via-background to-background px-6 py-16 text-center shadow-lg">
+        <div className="pointer-events-none absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-background" />
+          <img
+            src={heroImageSrc}
+            alt=""
+            className="absolute inset-0 h-full w-full object-cover opacity-30 dark:opacity-20"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-primary/20 via-transparent to-transparent dark:from-primary/30" />
         </div>
         <div className="relative z-10 mx-auto flex max-w-4xl flex-col items-center gap-10">
           <div className="flex flex-col items-center gap-3 text-xs font-medium uppercase tracking-[0.35em] text-muted-foreground">
