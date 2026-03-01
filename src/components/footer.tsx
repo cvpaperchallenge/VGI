@@ -6,8 +6,8 @@ import { Link } from "react-router";
 
 export function Footer() {
   return (
-    <footer className="w-full border-t bg-footer-background/70 py-6 md:py-10 px-6 flex-col justify-items-center">
-      <div className="container grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+    <footer className="w-full border-t bg-footer-background/70 py-6 md:py-10 flex flex-col items-center">
+      <div className="container grid gap-8 md:grid-cols-2 lg:grid-cols-4 px-6 xl:w-6xl">
         {/* Logo and Workshop Name */}
         {/* <div className="flex flex-col gap-2">
           <Link to="/" className="flex items-center space-x-2">
@@ -16,51 +16,28 @@ export function Footer() {
           <p className="text-sm text-muted-foreground">ICCV 2025</p>
         </div> */}
 
-        {/* Past LIMIT Workshop */}
+        {/* Past VGI Workshop */}
         {/* <div className="flex flex-col gap-2">
-          <h3 className="font-medium">Past LIMIT Workshops</h3>
+          <h3 className="font-medium">Past VGI Workshops</h3>
           <Link
-            to="https://hirokatsukataoka16.github.io/CVPR-2024-LIMIT"
+            to="https://vgi.github.io/"
             className="text-sm text-muted-foreground hover:text-foreground"
           >
-            CVPR 2024 LIMIT
-          </Link>
-          <Link
-            to="https://lsfsl.net/limit23"
-            className="text-sm text-muted-foreground hover:text-foreground"
-          >
-            ICCV 2023 LIMIT
+            ICCV 2023 VGI
           </Link>
         </div> */}
 
         {/* Related Workshop */}
-        {/* <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2">
           <h3 className="font-medium">Related Workshops</h3>
           <Link
-            to="https://iccv2025-found-workshop.limitlab.xyz"
+            to="https://cvpr2026-bigmac-workshop.limitlab.xyz/"
             className="text-sm text-muted-foreground hover:text-foreground"
           >
-            ICCV 2025 FOUND
+            CVPR 2026 BigMAC
           </Link>
-          <Link
-            to="https://sslwin.org"
-            className="text-sm text-muted-foreground hover:text-foreground"
-          >
-            ECCV 2024 SSLWIN
-          </Link>
-          <Link
-            to="https://bigmac-vision.github.io"
-            className="text-sm text-muted-foreground hover:text-foreground"
-          >
-            ICCV 2023 BigMAC
-          </Link>
-          <Link
-            to="https://www.lsfsl.net/ws"
-            className="text-sm text-muted-foreground hover:text-foreground"
-          >
-            ICCV 2019 MDALC
-          </Link>
-        </div> */}
+        </div>
+
 
         {/* Social Links
         <div className="flex flex-col gap-2">
@@ -150,7 +127,7 @@ export function Footer() {
       </div>
 
       {/* Credits */}
-      <div className="container mt-8 border-t pt-4">
+      <div className="container mt-8 border-t pt-4 px-6 xl:w-6xl">
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
           <Link to="/" className="flex items-center space-x-2">
             <span className="font-bold text-lg">VGI Workshop</span>
@@ -168,7 +145,8 @@ export function Footer() {
             /> */}
           </Link>
           <p className="text-center text-sm text-muted-foreground md:text-left">
-            &copy; {new Date().getFullYear()} VGI Workshop. All rights reserved.
+            &copy; {new Date().getFullYear()} VGI Workshop. All rights
+            reserved.
           </p>
           <p className="text-center text-sm text-muted-foreground md:text-right">
             Website built by cvpaper.challenge Dev Team
