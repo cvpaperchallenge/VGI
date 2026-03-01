@@ -63,7 +63,7 @@ function Home() {
   return (
     <main className="container px-6 py-8 space-y-16 xl:w-6xl">
       {/* Hero Section */}
-      <section className="relative isolate overflow-hidden rounded-3xl border bg-gradient-to-br from-primary/10 via-background to-background px-6 py-16 text-center shadow-lg">
+      <section className="relative overflow-hidden rounded-3xl border px-6 py-16 text-center shadow-lg">
         <div className="pointer-events-none absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-background" />
           <img
@@ -107,7 +107,7 @@ function Home() {
             </div>
           </div>
           <div className="space-y-4">
-            <h1 className="text-4xl tracking-tighter sm:text-5xl md:text-6xl">
+            <h1 className="text-3xl tracking-tighter sm:text-4xl md:text-5xl xl:whitespace-nowrap">
               {homeData.title}
             </h1>
             <p className="text-2xl tracking-tight sm:text-3xl md:text-4xl">
@@ -133,25 +133,25 @@ function Home() {
         </div>
       </section>
 
-      {/* Latest News Section */}
-      <section id="news" className="space-y-6">
-        <div className="space-y-2">
-          <h2 className="text-3xl tracking-tighter">Latest News</h2>
-        </div>
-        <div className="space-y-4">
-          {homeData.latestNews.map((news, index) => (
-            <div key={index} className="rounded-lg border bg-card p-6">
-              <div className="flex justify-between items-start">
-                <div className="space-y-1">
-                  <h3 className="font-semibold">{news.title}</h3>
-                  <p className="text-sm text-muted-foreground">{news.date}</p>
+        {/* Latest News Section */}
+        <section id="news" className="space-y-6 mt-16">
+          <div className="space-y-2">
+            <h2 className="text-3xl tracking-tighter">Latest News</h2>
+          </div>
+          <div className="space-y-4">
+            {homeData.latestNews.map((news, index) => (
+              <div key={index} className="rounded-lg border bg-card p-6">
+                <div className="flex justify-between items-start">
+                  <div className="space-y-1">
+                    <h3 className="font-semibold">{news.title}</h3>
+                    <p className="text-sm text-muted-foreground">{news.date}</p>
+                  </div>
                 </div>
+                <p className="mt-2">{news.content}</p>
               </div>
-              <p className="mt-2">{news.content}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+            ))}
+          </div>
+        </section>
 
       {/* Overview Section */}
       <section id="about" className="space-y-6">
