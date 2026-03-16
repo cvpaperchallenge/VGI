@@ -11,8 +11,8 @@
     },
     {
       "name": "Yoshihiro Fukuhara",
-      "affiliation": "AIST / Waseda University",
-      "photo": "/organizers/yoshihiro.fukuhara.png",
+      "affiliation": "AIST / CADDi",
+      "photo": "/organizers/yoshihiro.fukuhara.jpg",
       "bio": "",
       "website": "https://gatheluck.net"
     },
@@ -50,6 +50,27 @@
       "photo": "/organizers/christian.rupprecht.jpg",
       "bio": "",
       "website": "https://chrirupp.github.io/"
+    },
+    {
+      "name": "Yuki M. Asano",
+      "affiliation": "University of Technology Nuremberg",
+      "photo": "/organizers/yuki.asano.jpg",
+      "bio": "",
+      "website": "https://yukimasano.github.io/"
+    },
+    {
+      "name": "Jianyuan Wang",
+      "affiliation": "Oxford VGG",
+      "photo": "/organizers/jianyuan.wang.jpg",
+      "bio": "",
+      "website": "https://jytime.github.io/"
+    },
+    {
+      "name": "Kohsuke Ide",
+      "affiliation": "University of Tsukuba",
+      "photo": "/organizers/kohsuke.ide.jpg",
+      "bio": "",
+      "website": "https://www.linkedin.com/in/kohsuke-ide-606a32236/"
     }
   ],
   "programChairs": [
