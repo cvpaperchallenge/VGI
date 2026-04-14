@@ -19,14 +19,14 @@
     },
     {
       "title": "Workshop Date",
-      "date": "October, 19, 2025, 1:00 PM - 6:00 PM (HST)",
-      "description": "Workshop sessions at ICCV 2025"
+      "date": "June 3, 2025, 8:30 AM - 4:50 PM (MDT)",
+      "description": "Workshop sessions at CVPR 2025"
     }
   ],
   "workshopProgram": {
     "day1": {
-      "date": "Not Decided Yet",
-      "location": "Denver Colorado",
+      "date": "June 3, 2025",
+      "location": "Colorado Convention Center - Room 703",
       "schedule": [
         {
           "time": "08:30 - 08:40",

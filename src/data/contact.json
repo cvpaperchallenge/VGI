@@ -12,7 +12,7 @@
       "type": "Location",
       "icon": "MapPin",
       "description": "The workshop will be held at:",
-      "value": "Denver Colorado"
+      "value": "Colorado Convention Center - Room 703"
     },
     {
       "type": "Slack",
