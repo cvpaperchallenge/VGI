@@ -63,7 +63,21 @@
       "affiliation": "University of Tsukuba",
       "photo": "/organizers/kohsuke.ide.jpg",
       "bio": "",
-      "website": "https://www.linkedin.com/in/kohsuke-ide-606a32236/"
+      "website": "https://kohsukeide.github.io/"
+    },
+    {
+      "name": "Xianzheng Ma",
+      "affiliation": "Oxford VGG",
+      "photo": "/organizers/xianzheng.ma.jpg",
+      "bio": "",
+      "website": "https://xianzhengma.github.io/"
+    },
+    {
+      "name": "Koichi Namekata",
+      "affiliation": "Oxford VGG",
+      "photo": "/organizers/koichi.namekata.jpg",
+      "bio": "",
+      "website": "https://kmcode1.github.io/"
     }
   ],
   "programChairs": [
