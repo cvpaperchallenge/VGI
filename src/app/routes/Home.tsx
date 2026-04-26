@@ -219,9 +219,7 @@ function Home() {
               <TableRow>
                 <TableHead className="w-[150px]">Time</TableHead>
                 <TableHead>Session</TableHead>
-                <TableHead className="hidden md:table-cell">
-                  Presenter
-                </TableHead>
+                <TableHead>Presenter</TableHead>
                 <TableHead className="hidden md:table-cell w-[140px]"></TableHead>
               </TableRow>
             </TableHeader>
@@ -230,9 +228,7 @@ function Home() {
                 <TableRow key={index}>
                   <TableCell className="font-medium">{item.time}</TableCell>
                   <TableCell>{item.session}</TableCell>
-                  <TableCell className="hidden md:table-cell">
-                    {item.presenter || ""}
-                  </TableCell>
+                  <TableCell>{item.presenter || ""}</TableCell>
                   <TableCell className="hidden md:table-cell">
                     {item.slides ? (
                       <Button variant="ghost" size="sm" asChild>
