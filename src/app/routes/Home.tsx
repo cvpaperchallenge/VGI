@@ -227,7 +227,16 @@ function Home() {
               {scheduleData.workshopProgram.day1.schedule.map((item, index) => (
                 <TableRow key={index}>
                   <TableCell className="font-medium">{item.time}</TableCell>
-                  <TableCell>{item.session}</TableCell>
+                  <TableCell>
+                    <div className="space-y-1">
+                      <div>{item.session}</div>
+                      {item.title && (
+                        <div className="text-sm text-muted-foreground italic">
+                          {item.title}
+                        </div>
+                      )}
+                    </div>
+                  </TableCell>
                   <TableCell>{item.presenter || ""}</TableCell>
                   <TableCell className="hidden md:table-cell">
                     {item.slides ? (
@@ -281,8 +290,6 @@ function Home() {
                       loading="lazy"
                     />
                   </div>
-                  {/* <h3 className="font-semibold">{speaker.title}</h3>
-                  <p className="text-sm text-muted-foreground">{speaker.bio}</p> */}
                 </div>
               </CardContent>
               <CardFooter>
