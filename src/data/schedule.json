@@ -30,15 +30,16 @@
       "schedule": [
         {
           "time": "08:30 - 08:40",
-          "session": "Opening Remarks",
+          "session": "Organizer Talk & Opening Remarks",
           "presenter": "Hirokatsu Kataoka",
+          "title": "Visual General Intelligence: Vision Research Toward the AGI Era",
           "slides": ""
         },
         {
           "time": "08:40 - 09:20",
           "session": "Invited Talk 1",
           "presenter": "Robert Geirhos",
-          "title": "",
+          "title": "Are generative video models the path towards solving visual intelligence?",
           "slides": ""
         },
         {
