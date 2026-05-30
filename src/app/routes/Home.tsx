@@ -32,6 +32,7 @@ import homeData from "../../data/home.json";
 import programData from "../../data/program.json";
 import scheduleData from "../../data/schedule.json";
 import organizersData from "../../data/organizers.json";
+import technicalSupportersData from "../../data/technicalSupporters.json";
 import supportersData from "../../data/supporters.json";
 import contactData from "../../data/contact.json";
 import callForPapersData from "../../data/callForPapers.json";
@@ -347,6 +348,39 @@ function Home() {
               </CardFooter>
             </Card>
           ))}
+        </div>
+      </section>
+
+      {/* Technical Supporters */}
+      <section id="technical-supporters" className="space-y-6">
+        <div className="space-y-2">
+          <h2 className="text-2xl sm:text-3xl tracking-tighter">
+            Technical Supporters
+          </h2>
+        </div>
+        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {technicalSupportersData.technicalSupporters.map(
+            (supporter, index) => (
+              <Card key={index}>
+                <CardHeader>
+                  <CardTitle>{supporter.name}</CardTitle>
+                  <CardDescription>{supporter.affiliation}</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    <div className="aspect-square bg-muted rounded-md flex items-center justify-center">
+                      <img
+                        src={supporter.photo}
+                        alt={`Photo of ${supporter.name}`}
+                        className="object-cover w-full h-full"
+                        loading="lazy"
+                      />
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            ),
+          )}
         </div>
       </section>
 
