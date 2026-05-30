@@ -1,0 +1,24 @@
+{
+  "technicalSupporters": [
+    {
+      "name": "Tetsu Furukawa",
+      "affiliation": "AIST Solutions",
+      "photo": "/technical_supporters/tetsu.furukawa.jpg"
+    },
+    {
+      "name": "Akihiro Fuji",
+      "affiliation": "AIST Solutions",
+      "photo": "/technical_supporters/akihiro.fuji.jpg"
+    },
+    {
+      "name": "Shoko Ito",
+      "affiliation": "AIST Solutions",
+      "photo": "/technical_supporters/shoko.ito.jpg"
+    },
+    {
+      "name": "Shinji Yokoi",
+      "affiliation": "AIST Solutions",
+      "photo": "/technical_supporters/shinji.yokoi.jpg"
+    }
+  ]
+}
