@@ -32,6 +32,7 @@ import homeData from "../../data/home.json";
 import programData from "../../data/program.json";
 import scheduleData from "../../data/schedule.json";
 import organizersData from "../../data/organizers.json";
+import sponsorsData from "../../data/sponsors.json";
 import technicalSupportersData from "../../data/technicalSupporters.json";
 import supportersData from "../../data/supporters.json";
 import contactData from "../../data/contact.json";
@@ -381,6 +382,46 @@ function Home() {
               </Card>
             ),
           )}
+        </div>
+      </section>
+
+      {/* Sponsors */}
+      <section id="sponsors" className="space-y-6">
+        <div className="space-y-2">
+          <h2 className="text-2xl sm:text-3xl tracking-tighter">Sponsors</h2>
+        </div>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {sponsorsData.sponsors.map((sponsor, index) => (
+            <Card key={index}>
+              <CardHeader>
+                <CardTitle>{sponsor.name}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  <div className="aspect-square bg-white dark:bg-white rounded-md flex items-center justify-center">
+                    <img
+                      src={sponsor.photo}
+                      alt={`Logo of ${sponsor.name}`}
+                      className="object-contain w-full h-full p-4"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </CardContent>
+              <CardFooter>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex gap-2"
+                  asChild
+                >
+                  <a href={sponsor.website} target="_blank" rel="noreferrer">
+                    Website <ExternalLink className="h-4 w-4" />
+                  </a>
+                </Button>
+              </CardFooter>
+            </Card>
+          ))}
         </div>
       </section>
 
