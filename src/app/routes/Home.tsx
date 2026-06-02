@@ -311,6 +311,67 @@ function Home() {
         </div>
       </section>
 
+      {/* Invited Poster Session */}
+      {programData.invitedPosters && programData.invitedPosters.length > 0 && (
+        <section id="invited-posters" className="space-y-6">
+          <div className="space-y-2">
+            <h2 className="text-2xl sm:text-3xl tracking-tighter">
+              Invited Poster Session
+            </h2>
+          </div>
+          <p>
+            Posters must be 42&quot; x 21&quot; (Width x Height, aspect ratio
+            2:1, landscape format). All posters will be displayed in{" "}
+            <span className="font-semibold">Exhibit Hall A</span>. Poster boards
+            will be available during your assigned session time. You may use the
+            official{" "}
+            <a
+              href="https://drive.google.com/drive/folders/1oaXlMOJzWMYUiFBImMepKsZcoicpks8Z"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-primary"
+            >
+              CVPR logos and poster templates
+            </a>
+            .
+          </p>
+          <div className="relative border-border space-y-8">
+            {programData.invitedPosters.map((paper, index) => (
+              <div key={index} className="relative">
+                <div className="space-y-1">
+                  {paper.posterBoard && (
+                    <span className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary w-fit">
+                      Board {paper.posterBoard}
+                    </span>
+                  )}
+                  <h3 className="font-semibold">{paper.title}</h3>
+                  <p className="text-sm">{paper.authors}</p>
+                  {paper.url && (
+                    <div className="mt-1">
+                      <Button
+                        variant="link"
+                        size="sm"
+                        className="h-auto p-0 text-xs"
+                        asChild
+                      >
+                        <a
+                          href={paper.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <ExternalLink className="mr-1 h-3 w-3" />
+                          Paper
+                        </a>
+                      </Button>
+                    </div>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* Organizers */}
       <section id="organizers" className="space-y-6">
         <div className="space-y-2">

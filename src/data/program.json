@@ -262,6 +262,113 @@
       }
     ]
   },
+  "invitedPosters": [
+    {
+      "posterBoard": "1-left",
+      "title": "Theory of Space: Can Foundation Models Construct Spatial Beliefs through Active Exploration?",
+      "authors": "Pingyue Zhang, Zihan Huang, Yue Wang, Jieyu Zhang, Letian Xue, Zihan Wang, Qineng Wang, Keshigeyan Chandrasegaran, Ruohan Zhang, Yejin Choi, Ranjay Krishna, Jiajun Wu, Li Fei-Fei, Manling Li",
+      "url": "https://arxiv.org/abs/2602.07055"
+    },
+    {
+      "posterBoard": "1-right",
+      "title": "Unique Lives, Shared World: Learning from Single-Life Videos",
+      "authors": "Tengda Han, Sayna Ebrahimi, Dilara Gokay, Li Yang Ku, Maks Ovsjanikov, Iva Babukova, Daniel Zoran, Viorica Patraucean, Joao Carreira, Andrew Zisserman, Dima Damen",
+      "url": "https://arxiv.org/abs/2512.04085"
+    },
+    {
+      "posterBoard": "2-left",
+      "title": "Learning to See Through a Baby's Eyes: Early Visual Diets Enable Robust Visual Intelligence in Humans and Machines",
+      "authors": "Yusen Cai, Qing Lin, Bhargava Satya Nunna, Mengmi Zhang",
+      "url": "https://arxiv.org/abs/2511.14440"
+    },
+    {
+      "posterBoard": "2-right",
+      "title": "From None to All: Self-Supervised 3D Reconstruction via Novel View Synthesis",
+      "authors": "Ranran Huang, Weixun Luo, Ye Mao, Krystian Mikolajczyk",
+      "url": "https://arxiv.org/abs/2603.27455"
+    },
+    {
+      "posterBoard": "3-left",
+      "title": "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time",
+      "authors": "Chuhan Zhang, Guillaume Le Moing, Skanda Koppula, Ignacio Rocco, Liliane Momeni, Junyu Xie, Shuyang Sun, Rahul Sukthankar, Joëlle K. Barral, Raia Hadsell, Zoubin Ghahramani, Andrew Zisserman, Junlin Zhang, Mehdi S. M. Sajjadi",
+      "url": "https://arxiv.org/abs/2512.08924"
+    },
+    {
+      "posterBoard": "3-right",
+      "title": "Seeing without Pixels: Perception from Camera Trajectories",
+      "authors": "Zihui Xue, Kristen Grauman, Dima Damen, Andrew Zisserman, Tengda Han",
+      "url": "https://arxiv.org/abs/2511.21681"
+    },
+    {
+      "posterBoard": "4-left",
+      "title": "Next-Embedding Prediction Makes Strong Vision Learners",
+      "authors": "Sihan Xu, Ziqiao Ma, Wenhao Chai, Xuweiyi Chen, Weiyang Jin, Joyce Chai, Saining Xie, Stella X. Yu",
+      "url": "https://arxiv.org/abs/2512.16922"
+    },
+    {
+      "posterBoard": "4-right",
+      "title": "4D-RGPT: Toward Region-level 4D Understanding via Perceptual Distillation",
+      "authors": "Chiao-An Yang, Ryo Hachiuma, Sifei Liu, Subhashree Radhakrishnan, Raymond A. Yeh, Yu-Chiang Frank Wang, Min-Hung Chen",
+      "url": "https://arxiv.org/abs/2512.17012"
+    },
+    {
+      "posterBoard": "5-left",
+      "title": "Steerable Visual Representations",
+      "authors": "Jona Ruthardt, Manu Gaur, Deva Ramanan, Makarand Tapaswi, Yuki M. Asano",
+      "url": "https://arxiv.org/abs/2604.02327"
+    },
+    {
+      "posterBoard": "5-right",
+      "title": "VGGT-Ω",
+      "authors": "Jianyuan Wang, Minghao Chen, Shangzhan Zhang, Nikita Karaev, Johannes Schönberger, Patrick Labatut, Piotr Bojanowski, David Novotny, Andrea Vedaldi, Christian Rupprecht",
+      "url": "https://arxiv.org/abs/2605.15195"
+    },
+    {
+      "posterBoard": "6-left",
+      "title": "A Frame is Worth One Token: Efficient Generative World Modeling with Delta Tokens",
+      "authors": "Tommie Kerssies, Gabriele Berton, Ju He, Qihang Yu, Wufei Ma, Daan de Geus, Gijs Dubbelman, Liang-Chieh Chen",
+      "url": "https://arxiv.org/abs/2604.04913"
+    },
+    {
+      "posterBoard": "6-right",
+      "title": "Visual General Intelligence: Vision Research Toward the AGI Era",
+      "authors": "Hirokatsu Kataoka et al."
+    },
+    {
+      "posterBoard": "7-left",
+      "title": "TBD",
+      "authors": "Kohsuke Ide et al."
+    },
+    {
+      "posterBoard": "7-right",
+      "title": "COG: Confidence-aware Optimal Geometric Correspondence for Unsupervised Single-reference Novel Object Pose Estimation",
+      "authors": "Yuchen Che, Jingtu Wu, Hao Zheng, Asako Kanezaki",
+      "url": "https://arxiv.org/abs/2603.00493"
+    },
+    {
+      "posterBoard": "8-left",
+      "title": "Towards Structured Recognition and Generation of Human-Object Interactions",
+      "authors": "Takuma Yagi, Kohei Torimi, Jyun-Ting Song, Kris Kitani"
+    },
+    {
+      "posterBoard": "8-right",
+      "title": "BabyVLM-V2: Toward Developmentally Grounded Pretraining and Benchmarking of Vision Foundation Models",
+      "authors": "Shengao Wang, Wenqi Wang, Zecheng Wang, Max Whitton, Michael Wakeham, Arjun Chandra, Joey Huang, Pengyue Zhu, Helen Chen, David Li, Jeffrey Li, Shawn Li, Andrew Zagula, Amy Zhao, Andrew Zhu, Sayaka Nakamura, Yuki Yamamoto, Jerry Jun Yokono, Aaron Mueller, Bryan A. Plummer, Kate Saenko, Venkatesh Saligrama, Boqing Gong",
+      "url": "https://arxiv.org/abs/2512.10932"
+    },
+    {
+      "posterBoard": "9",
+      "title": "Planning in 8 Tokens: A Compact Discrete Tokenizer for Latent World Model",
+      "authors": "Dongwon Kim, Gawon Seo, Jinsung Lee, Minsu Cho, Suha Kwak",
+      "url": "https://arxiv.org/abs/2603.05438"
+    },
+    {
+      "posterBoard": "10",
+      "title": "E-RayZer: Self-supervised 3D Reconstruction as Spatial Visual Pre-training",
+      "authors": "Qitao Zhao, Hao Tan, Qianqian Wang, Sai Bi, Kai Zhang, Kalyan Sunkavalli, Shubham Tulsiani, Hanwen Jiang",
+      "url": "https://arxiv.org/abs/2512.10950"
+    }
+  ],
   "panelDiscussion": {
     "title": "Panel: Challenges and Opportunities in Machine Learning",
     "time": "October 16, 2025, 13:15 - 14:45",
