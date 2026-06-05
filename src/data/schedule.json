@@ -33,93 +33,123 @@
           "session": "Organizer Talk & Opening Remarks",
           "presenter": "Hirokatsu Kataoka",
           "title": "Visual General Intelligence: Vision Research Toward the AGI Era",
-          "slides": ""
+          "resources": [
+            {
+              "type": "slides",
+              "url": "https://cdn.limitlab.xyz/cvpr2026/s/cvpr2026-vgi-workshop-opening-remarks-hirokatsu-kataoka_latest-en.pdf"
+            }
+          ]
         },
         {
           "time": "08:40 - 09:20",
           "session": "Invited Talk 1",
           "presenter": "Robert Geirhos",
           "title": "Are generative video models the path towards solving visual intelligence?",
-          "slides": ""
+          "resources": [
+            {
+              "type": "slides",
+              "url": "https://cdn.limitlab.xyz/cvpr2026/s/cvpr2026-vgi-workshop-invited-talk-robert-geirhos_latest-en.pdf"
+            }
+          ]
         },
         {
           "time": "09:20 - 10:00",
           "session": "Invited Talk 2",
           "presenter": "Aditi Raghunathan",
           "title": "How to get creativity in AI",
-          "slides": ""
+          "resources": [
+            {
+              "type": "slides",
+              "url": "https://cdn.limitlab.xyz/cvpr2026/s/cvpr2026-vgi-workshop-invited-talk-aditi-raghunathan_latest-en.pdf"
+            }
+          ]
         },
         {
           "time": "10:00 - 10:40",
           "session": "Invited Talk 3",
           "presenter": "Matt Deitke",
           "title": "",
-          "slides": ""
+          "resources": []
         },
         {
           "time": "10:40 - 11:00",
           "session": "Short Break",
           "presenter": "",
-          "slides": ""
+          "resources": []
         },
         {
           "time": "11:00 - 11:40",
           "session": "Invited Talk 4",
           "presenter": "Kristen Grauman",
           "title": "Beyond Words: Capturing the Physical Nature of Human Activity in Video",
-          "slides": ""
+          "resources": []
         },
         {
           "time": "11:40 - 12:20",
           "session": "Invited Talk 5",
           "presenter": "Yuki M. Asano",
           "title": "Learning from moving, Generalising from speaking",
-          "slides": ""
+          "resources": []
         },
         {
           "time": "12:20 - 13:30",
           "session": "Lunch break / poster session (invite-only)",
           "presenter": "",
-          "slides": ""
+          "resources": []
         },
         {
           "time": "13:30 - 14:10",
           "session": "Invited Talk 6",
           "presenter": "Andrea Vedaldi",
           "title": "Building a 3D Foundation for Spatial AI",
-          "slides": ""
+          "resources": [
+            {
+              "type": "slides",
+              "url": "https://cdn.limitlab.xyz/cvpr2026/s/cvpr2026-vgi-workshop-invited-talk-andrea-vedaldi_latest-en.pdf"
+            }
+          ]
         },
         {
           "time": "14:10 - 14:50",
           "session": "Invited Talk 7",
           "presenter": "Alexei A. Efros",
           "title": "Surface Data vs. Deep Data: learning intelligence from the buttom up",
-          "slides": ""
+          "resources": []
         },
         {
           "time": "14:50 - 15:10",
           "session": "Coffee break",
           "presenter": "",
-          "slides": ""
+          "resources": []
         },
         {
           "time": "15:10 - 15:50",
           "session": "Invited Talk 8",
           "presenter": "Alex Kendall",
           "title": "Frontier challenges to bring general purpose driving AI to 10M cars",
-          "slides": ""
+          "resources": [
+            {
+              "type": "slides",
+              "url": "https://cdn.limitlab.xyz/cvpr2026/s/cvpr2026-vgi-workshop-invited-talk-alex-kendall_latest-en.pdf"
+            }
+          ]
         },
         {
           "time": "15:50 - 16:00",
           "session": "Closing remarks",
           "presenter": "Yoshihiro Fukuhara",
-          "slides": ""
+          "resources": [
+            {
+              "type": "slides",
+              "url": "https://cdn.limitlab.xyz/cvpr2026/s/cvpr2026-vgi-workshop-closing-remarks-yoshihiro-fukuhara_latest-en.pdf"
+            }
+          ]
         },
         {
           "time": "16:00 - 16:50",
           "session": "Discussion time",
           "presenter": "",
-          "slides": ""
+          "resources": []
         }
       ]
     },
