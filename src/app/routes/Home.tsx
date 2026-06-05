@@ -4,7 +4,6 @@ import {
   MapPin,
   ExternalLink,
   FileText,
-  Info,
   Video,
 } from "lucide-react";
 import { SiSlack } from "react-icons/si";
@@ -285,14 +284,6 @@ function Home() {
           <h2 className="text-2xl sm:text-3xl tracking-tighter">
             Invited Speakers
           </h2>
-        </div>
-        <div className="flex items-start gap-4 rounded-lg border bg-card p-6">
-          <Info className="h-6 w-6 shrink-0 text-primary" />
-          <p>
-            The list of invited speakers is not yet finalized. Some speakers
-            have given tentative confirmation, and additional speakers may be
-            announced in the future. Please check back for updates.
-          </p>
         </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {programData.invitedSpeakers.map((speaker, index) => (
