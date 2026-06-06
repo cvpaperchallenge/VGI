@@ -89,7 +89,12 @@
           "session": "Invited Talk 5",
           "presenter": "Yuki M. Asano",
           "title": "Learning from moving, Generalising from speaking",
-          "resources": []
+          "resources": [
+            {
+              "type": "slides",
+              "url": "https://cdn.limitlab.xyz/cvpr2026/s/cvpr2026-vgi-workshop-invited-talk-yuki-asano_latest-en.pdf"
+            }
+          ]
         },
         {
           "time": "12:20 - 13:30",
