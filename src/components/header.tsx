@@ -24,7 +24,7 @@ const navItems = [
 export function Header() {
   return (
     <header className="fixed top-0 z-50 w-full border-b border-border bg-header-background/70 backdrop-blur-md flex justify-center">
-      <div className="container flex h-16 items-center justify-between px-5">
+      <div className="container flex h-16 items-center justify-between px-6 xl:w-6xl">
         <div className="flex items-center gap-2">
           <Link to="/" className="flex items-center space-x-2">
             {/* <span className="font-bold text-xl">VGI 2026</span> */}
@@ -43,24 +43,24 @@ export function Header() {
           </Link>
         </div>
 
-        {/* Desktop Navigation */}
-        <div className="hidden md:flex">
-          <NavigationMenu>
-            <NavigationMenuList>
-              {navItems.map((item) => (
-                <NavigationMenuItem key={item.path}>
-                  <Link to={item.path}>
-                    <NavigationMenuLink className="bg-transparent hover:bg-header-accent dark:hover:bg-header-accent/50">
-                      {item.name}
-                    </NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
-              ))}
-            </NavigationMenuList>
-          </NavigationMenu>
-        </div>
+        <div className="flex items-center gap-4">
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex">
+            <NavigationMenu>
+              <NavigationMenuList>
+                {navItems.map((item) => (
+                  <NavigationMenuItem key={item.path}>
+                    <Link to={item.path}>
+                      <NavigationMenuLink className="bg-transparent hover:bg-header-accent dark:hover:bg-header-accent/50">
+                        {item.name}
+                      </NavigationMenuLink>
+                    </Link>
+                  </NavigationMenuItem>
+                ))}
+              </NavigationMenuList>
+            </NavigationMenu>
+          </div>
 
-        <div className="flex items-center gap-2">
           <ThemeToggle />
 
           {/* Mobile Navigation */}
