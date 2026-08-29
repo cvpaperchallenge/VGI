@@ -1,5 +1,7 @@
 import {
   Calendar,
+  Check,
+  Copy,
   Mail,
   MapPin,
   ExternalLink,
@@ -8,7 +10,7 @@ import {
 } from "lucide-react";
 import { SiSlack } from "react-icons/si";
 import { Link, useLocation } from "react-router";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import {
   Table,
@@ -37,6 +39,7 @@ import technicalSupportersData from "../../data/technicalSupporters.json";
 import supportersData from "../../data/supporters.json";
 import contactData from "../../data/contact.json";
 import callForPapersData from "../../data/callForPapers.json";
+import whitePaperData from "../../data/whitePaper.json";
 import type { Route } from "./+types/Home";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { buildMeta } from "@/lib/seo";
@@ -46,13 +49,18 @@ export const meta: Route.MetaFunction = () =>
     title:
       "VGI Workshop @ CVPR 2026 | Visual General Intelligence -Vision Research Toward the AGI Era-",
     description:
-      "VGI Workshop at CVPR 2026 spotlights resource-efficient representation learning. Join us on October 19 in Honolulu for keynotes, paper presentations, and community updates.",
+      "VGI Workshop at CVPR 2026 asked how vision research should be conducted in the AGI era. Read the resulting white paper on arXiv, together with the full program, invited talks, and speaker slides.",
     path: "/",
-    keywords: ["CVPR workshop 2026", "visual general intelligence"],
+    keywords: [
+      "CVPR workshop 2026",
+      "visual general intelligence",
+      "VGI white paper",
+    ],
   });
 
 function Home() {
   const location = useLocation();
+  const [bibtexCopied, setBibtexCopied] = useState(false);
 
   useEffect(() => {
     if (!location.hash) return;
@@ -60,6 +68,20 @@ function Home() {
     const element = document.querySelector(location.hash);
     element?.scrollIntoView({ behavior: "smooth" });
   }, [location.hash]);
+
+  useEffect(() => {
+    if (!bibtexCopied) return;
+
+    const timer = setTimeout(() => setBibtexCopied(false), 2000);
+    return () => clearTimeout(timer);
+  }, [bibtexCopied]);
+
+  const handleCopyBibtex = () => {
+    navigator.clipboard
+      .writeText(whitePaperData.bibtex)
+      .then(() => setBibtexCopied(true))
+      .catch(() => setBibtexCopied(false));
+  };
 
   return (
     <main className="container px-6 py-8 space-y-16 xl:w-6xl">
@@ -126,6 +148,20 @@ function Home() {
             </Button>
           </div>
         </div>
+
+        {/* White Paper callout */}
+        <div className="relative z-10 mx-auto mt-10 w-full max-w-4xl border-t pt-6">
+          <p className="text-sm text-muted-foreground">
+            Following the workshop, our white paper{" "}
+            <Link
+              to="/#white-paper"
+              className="font-medium text-foreground underline hover:text-primary"
+            >
+              {whitePaperData.title}
+            </Link>{" "}
+            is now available on arXiv.
+          </p>
+        </div>
       </section>
 
       {/* Latest News Section */}
@@ -143,8 +179,93 @@ function Home() {
                 </div>
               </div>
               <p className="mt-2">{news.content}</p>
+              {news.links && news.links.length > 0 && (
+                <div className="mt-2 flex flex-wrap items-center gap-3">
+                  {news.links.map((link, linkIndex) => (
+                    <Button
+                      key={linkIndex}
+                      variant="link"
+                      size="sm"
+                      className="h-auto p-0 text-xs"
+                      asChild
+                    >
+                      <a
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="mr-1 h-3 w-3" />
+                        {link.label}
+                      </a>
+                    </Button>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* White Paper Section */}
+      <section id="white-paper" className="space-y-6">
+        <div className="space-y-2">
+          <h2 className="text-2xl sm:text-3xl tracking-tighter">White Paper</h2>
+          <p>{whitePaperData.description}</p>
+        </div>
+        <div className="relative overflow-hidden rounded-3xl border bg-gradient-to-br from-primary/10 via-background to-background px-6 py-10 shadow-lg sm:px-10">
+          <div className="pointer-events-none absolute inset-0 -z-10">
+            <div className="h-full w-full bg-gradient-to-b from-primary/20 via-transparent to-transparent dark:from-primary/30" />
+          </div>
+          <div className="relative z-10 space-y-5">
+            <div className="flex flex-wrap items-center gap-3">
+              <span className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary w-fit">
+                {whitePaperData.badge}
+              </span>
+              <span className="text-xs text-muted-foreground">
+                {whitePaperData.date}
+              </span>
+            </div>
+            <div className="space-y-2">
+              <h3 className="text-2xl tracking-tighter sm:text-3xl">
+                {whitePaperData.title}
+              </h3>
+              <p className="text-sm text-muted-foreground">
+                {whitePaperData.authors.join(", ")}
+              </p>
+            </div>
+            <p>{whitePaperData.abstract}</p>
+            <div className="flex flex-wrap gap-3">
+              {whitePaperData.links.map((link, index) => (
+                <Button
+                  key={index}
+                  variant="outline"
+                  size="sm"
+                  className="flex gap-2"
+                  asChild
+                >
+                  <a href={link.url} target="_blank" rel="noreferrer">
+                    {link.label} <ExternalLink className="h-4 w-4" />
+                  </a>
+                </Button>
+              ))}
+              <Button
+                variant="outline"
+                size="sm"
+                className="flex gap-2"
+                onClick={handleCopyBibtex}
+              >
+                {bibtexCopied ? (
+                  <>
+                    Copied <Check className="h-4 w-4" />
+                  </>
+                ) : (
+                  <>
+                    BibTeX <Copy className="h-4 w-4" />
+                  </>
+                )}
+              </Button>
+            </div>
+          </div>
         </div>
       </section>
 

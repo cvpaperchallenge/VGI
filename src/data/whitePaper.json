@@ -1,0 +1,41 @@
+{
+  "badge": "arXiv:2608.25924",
+  "title": "Visual General Intelligence: A White Paper",
+  "date": "August 26, 2026",
+  "authors": [
+    "Hirokatsu Kataoka",
+    "Yoshihiro Fukuhara",
+    "Yonglong Tian",
+    "Shangzhe Wu",
+    "Oishi Deb",
+    "Ryousuke Yamada",
+    "Christian Rupprecht",
+    "Jianyuan Wang",
+    "Kohsuke Ide",
+    "Koichi Namekata",
+    "Xianzheng Ma",
+    "Yiming Chen",
+    "Robert Geirhos",
+    "Aditi Raghunathan",
+    "Yuki M. Asano",
+    "Deva Ramanan",
+    "David Fouhey",
+    "Andrew J. Davison",
+    "Yilun Du",
+    "Jiajun Wu",
+    "Zhuang Liu"
+  ],
+  "description": "The discussion started at the VGI Workshop has been continued by the organizers and invited speakers, and is now published as a white paper on arXiv.",
+  "abstract": "This paper reconsiders intelligence from a vision-centered perspective and examines whether intelligence emerging from visual experience and learning may provide a pathway toward AGI. In the language domain, beginning with the introduction of the Transformer architecture, the GPT series has demonstrated transfer to unseen tasks through autoregressive language modeling on web-scale text combined with aggressive scaling. This raises a natural question, namely, what capabilities and forms of intelligence can emerge from visual modalities such as images, videos, and geometry? In this paper, we discuss whether visual intelligence can serve as a pathway toward AGI, referred to in this paper as visual general intelligence (VGI), by bringing together contributors from diverse standpoints and affiliations. Our aim is not to offer a single definition of visual intelligence, but to clarify the principles that computer vision should pursue in the AGI era, the visual input modalities, the benchmarks, the learning paradigms, and the relationship between vision, when taken as the core, and other modalities such as language.",
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2608.25924"
+    },
+    {
+      "label": "PDF",
+      "url": "https://arxiv.org/pdf/2608.25924"
+    }
+  ],
+  "bibtex": "@article{kataoka2026visual,\n  title   = {Visual General Intelligence: A White Paper},\n  author  = {Kataoka, Hirokatsu and Fukuhara, Yoshihiro and Tian, Yonglong and Wu, Shangzhe and Deb, Oishi and Yamada, Ryousuke and Rupprecht, Christian and Wang, Jianyuan and Ide, Kohsuke and Namekata, Koichi and Ma, Xianzheng and Chen, Yiming and Geirhos, Robert and Raghunathan, Aditi and Asano, Yuki M. and Ramanan, Deva and Fouhey, David and Davison, Andrew J. and Du, Yilun and Wu, Jiajun and Liu, Zhuang},\n  journal = {arXiv preprint arXiv:2608.25924},\n  year    = {2026}\n}\n"
+}

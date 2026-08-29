@@ -36,19 +36,33 @@
   ],
   "latestNews": [
     {
+      "title": "White paper released on arXiv",
+      "date": "August 26, 2026",
+      "content": "The discussion started at the workshop has been continued by the organizers and invited speakers, and is now published as a white paper, \"Visual General Intelligence: A White Paper\", co-authored by 21 contributors. It is available on arXiv.",
+      "links": [
+        {
+          "label": "Read the white paper",
+          "url": "https://arxiv.org/abs/2608.25924"
+        }
+      ]
+    },
+    {
       "title": "Workshop successfully concluded",
       "date": "June 3, 2026",
-      "content": "The workshop has been successfully concluded with great participation from many attendees. We sincerely thank all participants, speakers, and organizers for making this event a success."
+      "content": "The workshop has been successfully concluded with great participation from many attendees. We sincerely thank all participants, speakers, and organizers for making this event a success.",
+      "links": []
     },
     {
       "title": "Invited Poster Session updated",
       "date": "June 2, 2026",
-      "content": "The Invited Poster Session information has been updated. Presenters are kindly asked to display their posters at the assigned Poster Board. Please check the Invited Poster Session section for details."
+      "content": "The Invited Poster Session information has been updated. Presenters are kindly asked to display their posters at the assigned Poster Board. Please check the Invited Poster Session section for details.",
+      "links": []
     },
     {
       "title": "Workshop page open",
       "date": "December 21, 2025",
-      "content": "We are excited to announce that our workshop page is now live. We will continue to add information, so please check back regularly for updates."
+      "content": "We are excited to announce that our workshop page is now live. We will continue to add information, so please check back regularly for updates.",
+      "links": []
     }
   ]
 }
