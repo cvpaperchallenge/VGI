@@ -123,6 +123,12 @@ export function Footer() {
             Home
           </Link>
           <Link
+            to="/#white-paper"
+            className="text-sm text-muted-foreground hover:text-foreground"
+          >
+            White Paper
+          </Link>
+          <Link
             to="/#program"
             className="text-sm text-muted-foreground hover:text-foreground"
           >
